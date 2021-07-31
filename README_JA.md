@@ -11,7 +11,7 @@ Josh Allen - Segment 1 Tasks
 Segment 1: GitHub Tasks
 
 1. Created separate branches for each member of working group for simultaneous development
-*** insert screenshot of all of our repos. **
+![Team git branches](https://github.com/joshuanallen/Air_Quality_Prediction/blob/ba75372a3907c48971abad550e85a9696603a64d/Final_Project_Segment1_GitHub_Team_Branches.png)
 
 2. Communication protocols:
 
@@ -39,6 +39,8 @@ Project and Task Management:
     5. Merge all changes after overview in weekly sync
     6. Move completed task cards to "Done" column
     7. Generate new team member branches from mewly merged "main" branch for next segment work
+
+![Project agile page](https://github.com/joshuanallen/Air_Quality_Prediction/blob/ba75372a3907c48971abad550e85a9696603a64d/Final_project_seg1_GitHub_Agile_cards.png)
 
 Pull Request & Merge:
 - Completed tasks will be reviewed and discussed in weekly sync. Pull request performed by branch owner and then merged by GitHub manager
