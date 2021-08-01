@@ -19,11 +19,11 @@
 
 For our final project our team has decided to take air qaulity data from different counties in California to test the following hypotheis: 
 
-Hypothesis: The pollution exposure of different regions in California presents a negative socioeconomic effect on the population. 
-Null Hypothesis: There is no negative correlation between pollution exposure and negative socioeconomic variables.  
-Alternative Hypothesis: There is a negative correlation between pollution exposure and negative socioeconomic variables.  
+**Hypothesis:** The pollution exposure of different regions in California presents a negative socioeconomic effect on the population. 
+**Null Hypothesis:** There is no negative correlation between pollution exposure and negative socioeconomic variables.  
+**Alternative Hypothesis:** There is a negative correlation between pollution exposure and negative socioeconomic variables.  
 
-Pollution Exposure Variables: 
+**Pollution Exposure Variables:**
 Ozone Concentrations
 PM2.5 Concentrations
 Diesel PM Emissions
@@ -32,14 +32,14 @@ Pesticides Use
 Toxic Release from Facilities
 Traffic Density
 
-Socioeconomic Variables: 
+**Socioeconomic Variables:**
 Educational Attainment
 Housing Burdened Low Income Households
 Linguistic Isolation
 Poverty 
 Unemployment 
 
-Health Risk Variables: 
+**Health Risk Variables:** 
 Asthma 
 
 ### 2. Repository 
@@ -65,12 +65,12 @@ We intend to use Neural networks (also known as artificial neural networks, or A
 
 There are a several advantages and disadvantages of using neural networks. The main advantages and disadvanteges are outlined below. 
 
-Advantages: 
+**Advantages:**
 
 * Effective at detecting complex, nonlinear relationships.
 * Have greater tolerance for messy data and can learn to ignore noisy characteristics in data.
 
-Disadvantages: 
+**Disadvantages:** 
 
 * The layers of neurons are often too complex to dissect and understand (creating a black box problem).
 * Prone to overfitting (characterizing the training data so well that it does not generalize to test data effectively). 
