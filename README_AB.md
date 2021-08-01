@@ -46,9 +46,11 @@ For our final project our team has decided to take air qaulity data from differe
 
 We have created our teams GitHub repository, with a branch for each team member to work from. We also had one team member,(square role), establish communication protocols and generate a project management deashboard. 
 
-### 3. Data Cleaning and Analysis 
+### 3. Data Source 
 
 Data Source: https://data.ca.gov/dataset/calenviroscreen-3-0-results/resource/89b3f4e9-0bf8-4690-8c6f-715a717f3fae
+
+### 4. Data Cleaning and Analysis
 
 * Python will be used to clean the data and perform an exploratory analysis.
 * Google collab will be used for further analysis. 
