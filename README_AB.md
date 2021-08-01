@@ -24,23 +24,23 @@ For our final project our team has decided to take air qaulity data from differe
 **Alternative Hypothesis:** There is a negative correlation between pollution exposure and negative socioeconomic variables.  
 
 **Pollution Exposure Variables:**
-Ozone Concentrations
-PM2.5 Concentrations
-Diesel PM Emissions
-Drinking Water Contaminants
-Pesticides Use
-Toxic Release from Facilities
-Traffic Density
+* Ozone Concentrations
+* PM2.5 Concentrations
+* Diesel PM Emissions
+* Drinking Water Contaminants
+* Pesticides Use
+* Toxic Release from Facilities
+* Traffic Density
 
 **Socioeconomic Variables:**
-Educational Attainment
-Housing Burdened Low Income Households
-Linguistic Isolation
-Poverty 
-Unemployment 
+* Educational Attainment
+* Housing Burdened Low Income Households
+* Linguistic Isolation
+* Poverty 
+* Unemployment 
 
 **Health Risk Variables:** 
-Asthma 
+* Asthma 
 
 ### 2. Repository 
 
