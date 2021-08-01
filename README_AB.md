@@ -8,7 +8,8 @@
 4. Began to clean, organize, and perform exploratory data analysis on our dataset so that iw will be ready for analysis.
 5. Created mockups of a machine learning model and a database.
 
-# Team Members and Roles for Segment One: 
+## Team Members and Roles for Segment One: 
+
 * Josh Allen - Sqaure 
 * Cynthia Marin - Circle 
 * David Aronson - Triangle
@@ -43,36 +44,30 @@ Asthma
 
 ### 2. Repository 
 
-The sqaure roll for segment 1 was tasked with creating a repository and 
+The sqaure roll for segment 1 was tasked with creating a repository and managing 
 
-
-Data Manipulation:
-Python Clean-up and create databases
-Upload to AWS
-Google collab
-Create tables with SQL
-Tableau visualization 
-Use R to prove hypothesis
-Create Website to display findings
-Dashboard 
-
-
-
-# Technologies Used
-## Data Cleaning and Analysis
+### 3. Data Cleaning and Analysis 
 
 Data Source: https://data.ca.gov/dataset/calenviroscreen-3-0-results/resource/89b3f4e9-0bf8-4690-8c6f-715a717f3fae
 
-* Pandas will be used to clean the data and perform an exploratory analysis.
-* Python and Jupyter Notebook for further analysis. 
+* Python will be used to clean the data and perform an exploratory analysis.
+* Google collab will be used for further analysis. 
 * R will also be used to test our hypothesis. 
 
+
 ## Database Storage
-XXX is the database we intend to use, and we will integrate XXX to display the data.
+
+We intend to use the relational database system, PostgreSQL and pgAdmin to display the data. 
 
 ## Machine Learning
 
 ## Dashboard
+
+Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. 
+
+
+Google collab
+Create tables with SQL
 
 
 X 
