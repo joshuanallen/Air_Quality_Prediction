@@ -1,8 +1,22 @@
-#Air Quality Prediction 
-## Segment 1 of Final Project 
+# Segment 1 of Final Project 
 
+## Tasks Completed in Segment 1: 
 
-For our final project out team has decided to take air qaulity data from different coounties in California to predict 
+1. Decides on a topic for the project. 
+2. Created a repository for the project and invite the other team members to join.
+3. Sourced a dataset that will help us answer our queswtions.
+4. Began to clean, organize, and perform exploratory data analysis on our dataset so that iw will be ready for analysis.
+5. Created mockups of a machine learning model and a database.
+
+# Team Members and Roles for Segment One: 
+* Josh Allen - Sqaure 
+* Cynthia Marin - Circle 
+* David Aronson - Triangle
+* Ashley Burneka - X 
+
+### 1. Project Topic
+
+For our final project our team has decided to take air qaulity data from different counties in California to test the following hypotheis: 
 
 Hypothesis: The pollution exposure of different regions in California presents a negative socioeconomic effect on the population. 
 Null Hypothesis: There is no negative correlation between pollution exposure and negative socioeconomic variables.  
@@ -17,22 +31,20 @@ Pesticides Use
 Toxic Release from Facilities
 Traffic Density
 
-Socioeconomic Variables
+Socioeconomic Variables: 
 Educational Attainment
 Housing Burdened Low Income Households
 Linguistic Isolation
 Poverty 
 Unemployment 
 
-Health Risk Variables
+Health Risk Variables: 
 Asthma 
 
+### 2. Repository 
 
-# Team Members and Roles for Segment One: 
-Josh Allen - Sqaure 
-Cynthia Marin - Circle 
-David Aronson - Triangle
-Ashley Burneka - X 
+The sqaure roll for segment 1 was tasked with creating a repository and 
+
 
 Data Manipulation:
 Python Clean-up and create databases
@@ -42,7 +54,7 @@ Create tables with SQL
 Tableau visualization 
 Use R to prove hypothesis
 Create Website to display findings
-Dashboar
+Dashboard 
 
 
 
@@ -51,13 +63,14 @@ Dashboar
 
 Data Source: https://data.ca.gov/dataset/calenviroscreen-3-0-results/resource/89b3f4e9-0bf8-4690-8c6f-715a717f3fae
 
-Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
+* Pandas will be used to clean the data and perform an exploratory analysis.
+* Python and Jupyter Notebook for further analysis. 
+* R will also be used to test our hypothesis. 
 
 ## Database Storage
-Mongo is the database we intend to use, and we will integrate Flask to display the data.
+XXX is the database we intend to use, and we will integrate XXX to display the data.
 
 ## Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
 
 ## Dashboard
 
