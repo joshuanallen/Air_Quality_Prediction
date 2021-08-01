@@ -19,9 +19,9 @@
 
 For our final project our team has decided to take air qaulity data from different counties in California to test the following hypotheis: 
 
-**Hypothesis:** The pollution exposure of different regions in California presents a negative socioeconomic effect on the population. 
-**Null Hypothesis:** There is no negative correlation between pollution exposure and negative socioeconomic variables.  
-**Alternative Hypothesis:** There is a negative correlation between pollution exposure and negative socioeconomic variables.  
+* **Hypothesis:** The pollution exposure of different regions in California presents a negative socioeconomic effect on the population. 
+* **Null Hypothesis:** There is no negative correlation between pollution exposure and negative socioeconomic variables.  
+* **Alternative Hypothesis:** There is a negative correlation between pollution exposure and negative socioeconomic variables.  
 
 **Pollution Exposure Variables:**
 * Ozone Concentrations
