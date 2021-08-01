@@ -4,6 +4,29 @@
 
 For our final project out team has decided to take air qaulity data from different coounties in California to predict 
 
+Hypothesis: The pollution exposure of different regions in California presents a negative socioeconomic effect on the population. 
+Null Hypothesis: There is no negative correlation between pollution exposure and negative socioeconomic variables.  
+Alternative Hypothesis: There is a negative correlation between pollution exposure and negative socioeconomic variables.  
+
+Pollution Exposure Variables: 
+Ozone Concentrations
+PM2.5 Concentrations
+Diesel PM Emissions
+Drinking Water Contaminants
+Pesticides Use
+Toxic Release from Facilities
+Traffic Density
+
+Socioeconomic Variables
+Educational Attainment
+Housing Burdened Low Income Households
+Linguistic Isolation
+Poverty 
+Unemployment 
+
+Health Risk Variables
+Asthma 
+
 
 # Team Members and Roles for Segment One: 
 Josh Allen - Sqaure 
@@ -11,9 +34,23 @@ Cynthia Marin - Circle
 David Aronson - Triangle
 Ashley Burneka - X 
 
+Data Manipulation:
+Python Clean-up and create databases
+Upload to AWS
+Google collab
+Create tables with SQL
+Tableau visualization 
+Use R to prove hypothesis
+Create Website to display findings
+Dashboar
+
+
 
 # Technologies Used
 ## Data Cleaning and Analysis
+
+Data Source: https://data.ca.gov/dataset/calenviroscreen-3-0-results/resource/89b3f4e9-0bf8-4690-8c6f-715a717f3fae
+
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 
 ## Database Storage
