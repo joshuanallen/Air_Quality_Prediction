@@ -31,6 +31,10 @@ In this project we are analyzing air quality data points from the EPA for each c
 
 
 #### David Aronson = Triangle (Machine Learning Model)
+1. Generated a simple cleaned version of the data (draft cleaning, will revisit)
+2. Analyzed and decided on approach to generate eventual final machine learning model
+3. Coded and ran a first draft version of ML as a regression, just as a sample. Later model will be different.
+4. Added language in ReadMe files to clarify our approach to ML with the data presented.
 
 
 #### Josh Allen = Square (Repository)
@@ -147,6 +151,10 @@ We intend to use the relational database system, PostgreSQL and pgAdmin to displ
 #### Machine Learning 
 
 We intend to use Neural networks (also known as artificial neural networks, or ANN). Neural netwrorks are an advanced form of machine learning that recognizes patterns and features in input data and provides a clear quantitative output. In its simplest form, a neural network contains layers of neurons, which perform individual computations. These computations are connected and weighed against one another until the neurons reach the final layer, which returns a numerical result, or an encoded categorical result. 
+
+For this analysis, we will be narrowing in on an ideal machine learning model as we process the data. Our first approach will be to pull in neural network models, to include a wide array of variables, and vary the outcome. Very similar code can be used to quickly address many options using largely the same code. Random forest and deep learning models will be tested.
+
+If we do not find an outcome with strong predictions using neural networks, we can aggregate the variables more manually using a PCA, and use a supervised learning model. These will all be using regression, to see how much of a health or social outcome seen in the data can be predicted by the envirionmental variables in the same data set.
 
 There are a several advantages and disadvantages of using neural networks. The main advantages and disadvanteges are outlined below. 
 
