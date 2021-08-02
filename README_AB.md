@@ -2,10 +2,10 @@
 
 ## Tasks Completed in Segment 1: 
 
-1. Decides on a topic for the project. 
+1. Decided on a topic for the project. 
 2. Created a repository for the project and invite the other team members to join.
 3. Sourced a dataset that will help us answer our questions.
-4. Began to clean, organize, and perform exploratory data analysis on our dataset so that iw will be ready for analysis.
+4. Began to clean, organize, and perform exploratory data analysis on our dataset so that it will be ready for analysis.
 5. Created mockups of a machine learning model and a database.
 
 ## Team Members and Roles for Segment One: 
