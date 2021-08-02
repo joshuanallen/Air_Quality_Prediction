@@ -1,19 +1,56 @@
+# Air_Quality_Prediction
+Using historical Air Quality data from AirNow to predict the AirQuality for next days.
+
+## Project Overview:
+In this project we are analyzing air quality data points from the EPA for each county in California to predict trends relating the detrimental effects of pollution on a county's socioeconomic indicators.
+
+### Project Group Members: 
+- Ashley Burneka
+- Cynthia Marin
+- David Aaronson
+- Josh Allen
+
+---
+
+## Segment 1: Sketch it Out
+
+### Segment 1 Roles: 
+- Ashley Burneka = X (Technologies, Tools, and Presentation)
+- Cynthia Marin = Triangle (Machine Learning Model)
+- David Aronson = Circle (Database)
+- Josh Allen = Square (Repository)
+
+### Segment 1 Tasks:
+
+#### Ashley Burneka = X (Technologies, Tools, and Presentation)
+1. Created project overview and README structure
+2. Outlined hypotheses for project
+3. Identified tools for data, database, repository, machine learning model, visualization, and presentation
+
+#### Cynthia Marin = Triangle (Machine Learning Model)
+
+
+#### David Aronson = Circle (Database)
+
+
+#### Josh Allen = Square (Repository)
+1. Initialized repository and README.md
+2. Created branches for each team member
+3. Establish communication tools and protocols
+4. Generate project management dashboard and protocols
+5. Concatenate individual branch READMEs into main
+
+
+---
 # Segment One of Final Project 
 
 ## Tasks Completed in Segment 1: 
 
-1. Decided on a topic for the project. 
+1. Decides on a topic for the project. 
 2. Created a repository for the project and invite the other team members to join.
 3. Sourced a dataset that will help us answer our questions.
 4. Began to clean, organize, and perform exploratory data analysis on our dataset so that it will be ready for analysis.
 5. Created mockups of a machine learning model and a database.
-
-## Team Members and Roles for Segment One: 
-
-* Josh Allen - Sqaure 
-* Cynthia Marin - Circle 
-* David Aronson - Triangle
-* Ashley Burneka - X 
 
 ### 1. Project Topic
 
@@ -41,6 +78,12 @@ For our final project our team has decided to take air qaulity data from differe
 
 **Health Risk Variables:** 
 * Asthma 
+
+**Population Variables:**
+* California County
+* Zip
+* Longitude
+* Latitude
 
 ### 2. Repository 
 
@@ -82,6 +125,6 @@ Both of the disadvantages can be mitigated and accounted for.
 
 ## Dashboard
 
-Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings.  
+Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. 
 
 
