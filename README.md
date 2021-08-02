@@ -28,6 +28,11 @@ In this project we are analyzing air quality data points from the EPA for each c
 3. Identified tools for data, database, repository, machine learning model, visualization, and presentation
 
 #### Cynthia Marin = Circle (Database)
+1. Found raw dataset
+2. Select variables to use for our regression analysis
+3. Create ERD 
+5. Create database on SQL
+6. Populated tables importing our dataset on pgAdmin4 
 
 
 #### David Aronson = Triangle (Machine Learning Model)
