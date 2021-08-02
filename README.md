@@ -155,8 +155,7 @@ What's next?
 * Google collab will be used for further analysis. 
 * R will also be used to test our hypothesis. 
 
-![ERD_AQP.png]
-(https://github.com/joshuanallen/Air_Quality_Prediction/blob/b207ed61928782d2105617b26d6c79aadce9aad8/Database/ERD_AQP.png)
+![ERD_AQP.png](https://github.com/joshuanallen/Air_Quality_Prediction/blob/b207ed61928782d2105617b26d6c79aadce9aad8/Database/ERD_AQP.png)
 
 ### 5. Database Storage and Machine Learning
 
