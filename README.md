@@ -16,8 +16,8 @@ In this project we are analyzing air quality data points from the EPA for each c
 
 ### Segment 1 Roles: 
 - Ashley Burneka = X (Technologies, Tools, and Presentation)
-- Cynthia Marin = Triangle (Machine Learning Model)
-- David Aronson = Circle (Database)
+- Cynthia Marin = Circle (Database) 
+- David Aronson = Triangle (Machine Learning Model)
 - Josh Allen = Square (Repository)
 
 ### Segment 1 Tasks:
@@ -27,10 +27,10 @@ In this project we are analyzing air quality data points from the EPA for each c
 2. Outlined hypotheses for project
 3. Identified tools for data, database, repository, machine learning model, visualization, and presentation
 
-#### Cynthia Marin = Triangle (Machine Learning Model)
+#### Cynthia Marin = Circle (Database)
 
 
-#### David Aronson = Circle (Database)
+#### David Aronson = Triangle (Machine Learning Model)
 
 
 #### Josh Allen = Square (Repository)
@@ -80,14 +80,54 @@ For our final project our team has decided to take air qaulity data from differe
 * Asthma 
 
 **Population Variables:**
+* Total population
 * California County
 * Zip
 * Longitude
 * Latitude
 
+
 ### 2. Repository 
 
 We have created our teams GitHub repository, with a branch for each team member to work from. We also had one team member,(square role), establish communication protocols and generate a project management deashboard. 
+
+Segment 1: GitHub Tasks
+
+* Separate branches for each member of working group for simultaneous development
+![Team git branches](https://github.com/joshuanallen/Air_Quality_Prediction/blob/ba75372a3907c48971abad550e85a9696603a64d/Final_Project_Segment1_GitHub_Team_Branches.png)
+
+* Communication protocols:
+
+Weekly sync zoom meeting:
+- Meet on zoom Tuesdays at 6pm or Saturday morning 10am.
+- Google calendar invites
+
+* Communication Channels:
+- Messaging: Slack
+    - Used for quick reference and confirmation of status
+- Email: Gmail
+- Online Communication: Zoom meeting during class and predetermined sync meetings
+
+* File management: 
+- All files to be added to repository start in your branch have your initals in the filename to avoid duplication and potential merge conflicts. Also, allows for identifying who created and owns the file if clarification is needed.
+
+* Project and Task Management:
+- Built-in GitHub agile-like card system
+    1. Add task to "To Do" section of "AQI_Prediction" project within repo
+        - Include name of taskee and any comments for context
+        - Utilize grading rubric to ensure all tasks for each segment are completed
+    2. As tasks are in-progress, move card to "In progress" column
+    3. Completed tasks ready for peer review moved to "Review" column
+    4. Create pull request to merge completed task from team member's working branch
+    5. Merge all changes after overview in weekly sync
+    6. Move completed task cards to "Done" column
+    7. Generate new team member branches from mewly merged "main" branch for next segment work
+
+![Project agile page](https://github.com/joshuanallen/Air_Quality_Prediction/blob/ba75372a3907c48971abad550e85a9696603a64d/Final_project_seg1_GitHub_Agile_cards.png)
+
+* Pull Request & Merge:
+-   Completed tasks will be reviewed and discussed in weekly sync. Pull request performed by branch owner and then merged after discussion and approval
+
 
 ### 3. Data Source 
 
@@ -125,6 +165,5 @@ Both of the disadvantages can be mitigated and accounted for.
 
 ## Dashboard
 
-Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. 
-
+Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. We will also be creating a map that will show the Pollution Exposure, Health Risk and Socioeconomic impact on the given location.
 
