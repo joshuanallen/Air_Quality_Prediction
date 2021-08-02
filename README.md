@@ -16,8 +16,8 @@ In this project we are analyzing air quality data points from the EPA for each c
 
 ### Segment 1 Roles: 
 - Ashley Burneka = X (Technologies, Tools, and Presentation)
-- Cynthia Marin = Triangle (Machine Learning Model)
-- David Aronson = Circle (Database)
+- Cynthia Marin = Circle (Database) 
+- David Aronson = Triangle (Machine Learning Model)
 - Josh Allen = Square (Repository)
 
 ### Segment 1 Tasks:
@@ -27,10 +27,10 @@ In this project we are analyzing air quality data points from the EPA for each c
 2. Outlined hypotheses for project
 3. Identified tools for data, database, repository, machine learning model, visualization, and presentation
 
-#### Cynthia Marin = Triangle (Machine Learning Model)
+#### Cynthia Marin = Circle (Database)
 
 
-#### David Aronson = Circle (Database)
+#### David Aronson = Triangle (Machine Learning Model)
 
 
 #### Josh Allen = Square (Repository)
@@ -127,6 +127,6 @@ Both of the disadvantages can be mitigated and accounted for.
 
 ## Dashboard
 
-Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. 
+Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. We will also be creating a map that will show the Pollution Exposure, Health Risk and Socioeconomic impact on the given location.
 
 
