@@ -125,6 +125,6 @@ Both of the disadvantages can be mitigated and accounted for.
 
 ## Dashboard
 
-Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. 
+Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. We will also be creating a map that will show the Pollution Exposure, Health Risk and Socioeconomic impact on the given location. 
 
 
