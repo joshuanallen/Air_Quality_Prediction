@@ -80,10 +80,12 @@ For our final project our team has decided to take air qaulity data from differe
 * Asthma 
 
 **Population Variables:**
+* Total population
 * California County
 * Zip
 * Longitude
 * Latitude
+
 
 ### 2. Repository 
 
