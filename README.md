@@ -103,6 +103,9 @@ We have created our teams GitHub repository, with a branch for each team member 
 Segment 1: GitHub Tasks
 
 * Separate branches for each member of working group for simultaneous development
+
+**Picture 2.1: Team Git Branches**
+
 ![Team git branches](https://github.com/joshuanallen/Air_Quality_Prediction/blob/ba75372a3907c48971abad550e85a9696603a64d/Final_Project_Segment1_GitHub_Team_Branches.png)
 
 * Communication protocols:
@@ -132,7 +135,10 @@ Weekly sync zoom meeting:
     6. Move completed task cards to "Done" column
     7. Generate new team member branches from mewly merged "main" branch for next segment work
 
+**Picture 2.2: Agile Project Management dashboard**
+
 ![Project agile page](https://github.com/joshuanallen/Air_Quality_Prediction/blob/ba75372a3907c48971abad550e85a9696603a64d/Final_project_seg1_GitHub_Agile_cards.png)
+
 
 * Pull Request & Merge:
   - Completed tasks will be reviewed and discussed in weekly sync. Pull request performed by branch owner and then merged after discussion and approval
@@ -150,12 +156,20 @@ When it comes to data manipulation, we have done the following:
 * On pgAdmin4 our database was created. Find [Pseudocode](https://github.com/joshuanallen/Air_Quality_Prediction/blob/5d5c5eee41f6f7e55e249d585eefeb76c6014602/Code/AQP_SQL_pseudocode.txt) in the Code folder.
 * On pgAdmin4 we created tables to import our data. Find [Schema](https://github.com/joshuanallen/Air_Quality_Prediction/blob/5d5c5eee41f6f7e55e249d585eefeb76c6014602/Database/schema.sql) in Database folder.
 
+**Picture 4.1: Sample dataset**
+
+![Sample dataset](https://github.com/joshuanallen/Air_Quality_Prediction/blob/b7129714329647f841df4ab957be742e9685b301/images/data%20sample_DA.PNG)
+
+
 What's next?
 * Python will be used to further clean the data and perform an exploratory analysis. 
 * Google collab will be used for further analysis. 
 * R will also be used to test our hypothesis. 
 
+**Picture 4.2: ERD AQP**
+
 ![ERD_AQP.png](https://github.com/joshuanallen/Air_Quality_Prediction/blob/b207ed61928782d2105617b26d6c79aadce9aad8/Database/ERD_AQP.png)
+
 
 ### 5. Database Storage and Machine Learning
 
