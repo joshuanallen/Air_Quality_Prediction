@@ -30,8 +30,8 @@ In this project we are analyzing air quality data points from the EPA for each c
 #### Cynthia Marin = Circle (Database)
 1. Found raw dataset
 2. Select variables to use for our regression analysis
-3. Create ERD 
-5. Create database on SQL
+3. Create ERD in Quick Database Diagrams
+5. Create database on pgAdmin4 
 6. Populated tables importing our dataset on pgAdmin4 
 
 
@@ -144,14 +144,24 @@ Data Source: https://data.ca.gov/dataset/calenviroscreen-3-0-results/resource/89
 
 ### 4. Data Cleaning and Analysis
 
-* Python will be used to clean the data and perform an exploratory analysis.
+When it comes to data manipulation, we have done the following:
+* On Excel, we clean up the raw data and keep the variables we will be using for our AQP analysis. Find [Clean Data](https://github.com/joshuanallen/Air_Quality_Prediction/blob/b207ed61928782d2105617b26d6c79aadce9aad8/Resources/CLEAN_DATA_calenviroscreen_2018.csv) and [Raw Data](https://github.com/joshuanallen/Air_Quality_Prediction/blob/b207ed61928782d2105617b26d6c79aadce9aad8/Resources/RAW_DATA_calenviroscreen_3.0_results_june_2018.csv) in Resources folder.
+* On Quick Database Diagrams an ERD was created to visualize our database. (Find Diagram in Database folder)
+* On pgAdmin4 our database was created (Pseudocode available in the Database folder)
+* On pgAdmin4 we created tables to import our data.
+
+What's next?
+* Python will be used to further clean the data and perform an exploratory analysis. 
 * Google collab will be used for further analysis. 
 * R will also be used to test our hypothesis. 
 
+![ERD_AQP]
+(https://github.com/joshuanallen/Air_Quality_Prediction/blob/b207ed61928782d2105617b26d6c79aadce9aad8/Database/ERD_AQP.png)
 
 ### 5. Database Storage and Machine Learning
 
 We intend to use the relational database system, PostgreSQL and pgAdmin to display the data. 
+! 
 
 #### Machine Learning 
 
