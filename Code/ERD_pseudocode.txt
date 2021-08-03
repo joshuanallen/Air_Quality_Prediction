@@ -1,0 +1,46 @@
+# Database Layout
+
+Air_Quality_Diagram
+
+# Conceptual diagram of table name and column headers
+ 
+Population
+-
+California_County varchar pk FK >- Pollution_Exposure.California_County
+Total_Population int pk FK - Socioeconomic.Total_Population
+ZIP int
+Longitude int
+Latitude int
+
+Pollution_Exposure 
+-
+California_County varchar pk FK >- Health_Risk.California_County
+Ozone_Concentrations int
+PM2_5_Concentrations int
+Diesel_PM_Emissions int
+Drinking_Water_Contaminants int
+Pesticides_Use int
+Toxic_Release_from_Facilities int
+Traffic_Density int
+
+Socioeconomic
+-
+Total_Population int pk FK >- Health_Risk.Total_Population
+Educational_Attainment int
+Housing_Burdened_Low_Income_Households int
+Linguistic_Isolation int
+Poverty int
+Unemployment int
+
+Health_Risk
+-
+California_County varchar pk
+Total_Population int pk
+Asthma int
+
+Health_Risk
+-
+Total_Population int pk
+California_County varchar pk
+Asthma int
+
