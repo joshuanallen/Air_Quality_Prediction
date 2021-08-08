@@ -25,3 +25,10 @@ https://public.tableau.com/shared/9F7M7BWWD?:display_count=n&:origin=viz_share_l
 
 https://docs.google.com/presentation/d/1NEwjxembd7MZTzpdH9O3IrMbDIkBpe9F1dPqPqu5upY/edit?usp=sharing
 
+### Example Images: 
+
+<img width="843" alt="PM 2 5 and Asthma" src="https://user-images.githubusercontent.com/79999761/128647861-b8c159cd-4e39-4583-b613-3a493b55389f.png">
+
+<img width="632" alt="PM 2 5 and Traffic " src="https://user-images.githubusercontent.com/79999761/128647868-b6a8872a-79fd-4ae5-a8fb-aba66ae24184.png">
+
+
