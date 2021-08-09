@@ -1,0 +1,34 @@
+# Database Layout
+
+Air_Quality_Diagram
+
+# Conceptual diagram of table name and column headers
+ 
+Location
+-
+Census_Tract int pk FK >- Pollution_Exposure.Census_Tract
+Total_Population int 
+ZIP int
+Longitude float
+Latitude float
+
+Pollution_Exposure 
+-
+Census_Tract int pk FK >- Socioeconomic.Census_Tract
+Ozone float
+PM2_5 float
+Diesel_PM float
+Pesticides float
+Tox_Release float
+Traffic float
+
+Socioeconomic
+-
+Census_Tract int pk FK >- Location.Census_Tract
+Asthma float
+Low_Birth_Weight float
+Cardiovascular_Disease float
+Poverty int
+Unemployment int
+Traffic float fk FK >- Pollution_Exposure.Traffic
+
