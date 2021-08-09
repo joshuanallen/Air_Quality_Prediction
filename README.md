@@ -217,14 +217,14 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 #### Ashley Burneka = Circle (Presentation)
 
 #### Cynthia Marin = X (Dashboard)
-1. Dashboard Creation
+1. Dashboard Outline
 
 #### David Aronson = Triangle (Database) 
 
 #### Josh Allen = Square (Machine Learning Model)
 
 
-## Dashboard
+## [Dashboard Outline](https://github.com/joshuanallen/Air_Quality_Prediction/blob/bfedb9267ae4342d36a82bb08716996462551450/Dashboard_Segment_2.pdf)
 ![Slide_1](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_1.jpg)
 ![Slide_2](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_2.jpg)
 ![Slide_3.1jpg](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.1jpg.jpg)
