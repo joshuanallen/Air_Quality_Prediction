@@ -223,6 +223,7 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 
 #### Josh Allen = Square (Machine Learning Model)
 
+---
 
 ## [Dashboard Outline](https://github.com/joshuanallen/Air_Quality_Prediction/blob/bfedb9267ae4342d36a82bb08716996462551450/Dashboard_Segment_2.pdf)
 ![Slide_1](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_1.jpg)
