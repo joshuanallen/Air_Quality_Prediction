@@ -51,7 +51,7 @@ In this project we are analyzing air quality data points from the EPA for each c
 
 
 ---
-# Segment One of Final Project 
+# Segment 1 of Final Project 
 
 ## Tasks Completed in Segment 1: 
 
@@ -201,3 +201,28 @@ Both of the disadvantages can be mitigated and accounted for.
 ## Dashboard
 
 Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. We will also be creating a map that will show the Pollution Exposure, Health Risk and Socioeconomic impact on the given location.
+
+---
+
+## Segment 2: Sketch it Out
+
+### Segment 2 Roles: 
+- Ashley Burneka = X (Presentation)
+- Cynthia Marin = X (Dashboard) 
+- David Aronson = Triangle (Machine Learning Model)
+- Josh Allen = Square (Repository)
+
+### Segment 2 Tasks:
+
+#### Ashley Burneka = Circle (Presentation)
+
+#### Cynthia Marin = X (Dashboard)
+1. Dashboard Creation
+
+#### David Aronson = Triangle (Database) 
+
+#### Josh Allen = Square (Machine Learning Model)
+
+
+## Dashboard
+
