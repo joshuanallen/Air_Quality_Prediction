@@ -227,7 +227,7 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 ## Dashboard
 ![Slide_1](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_1.jpg)
 ![Slide_2](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_2.jpg)
-![Slide_3.1](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.1.jpg)
+![Slide_3.1jpg](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.1jpg.jpg)
 ![Slide_3.2](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.2.jpg)
 ![Slide_3.3](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.3.jpg)
 ![Slide_7](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_7.jpg)
