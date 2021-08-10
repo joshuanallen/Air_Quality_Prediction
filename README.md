@@ -51,7 +51,7 @@ In this project we are analyzing air quality data points from the EPA for each c
 
 
 ---
-# Segment One of Final Project 
+# Segment 1 of Final Project 
 
 ## Tasks Completed in Segment 1: 
 
@@ -201,3 +201,41 @@ Both of the disadvantages can be mitigated and accounted for.
 ## Dashboard
 
 Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. We will also be creating a map that will show the Pollution Exposure, Health Risk and Socioeconomic impact on the given location.
+
+---
+
+## Segment 2: Sketch it Out
+
+### Segment 2 Roles: 
+- Ashley Burneka = Circle (Presentation)
+- Cynthia Marin = X (Dashboard) 
+- David Aronson = Triangle (Machine Learning Model)
+- Josh Allen = Square (Repository)
+
+### Segment 2 Tasks:
+
+#### Ashley Burneka = Circle (Presentation)
+
+#### Cynthia Marin = X (Dashboard)
+1. Dashboard Outline
+
+#### David Aronson = Triangle (Database) 
+
+#### Josh Allen = Square (Machine Learning Model)
+
+---
+
+## [Dashboard Outline](https://github.com/joshuanallen/Air_Quality_Prediction/blob/bfedb9267ae4342d36a82bb08716996462551450/Dashboard_Segment_2.pdf)
+![Slide_1](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_1.jpg)
+![Slide_2](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_2.jpg)
+![Slide_3.1jpg](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.1jpg.jpg)
+![Slide_3.2](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.2.jpg)
+![Slide_3.3](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.3.jpg)
+![Slide_7](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_7.jpg)
+![Slide_8](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_8.jpg)
+![Slide_4](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_4.jpg)
+![Slide_5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_5.jpg)
+![Slide_6](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_6.jpg)
+
+
+https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBvutI/edit?usp=sharing
