@@ -207,7 +207,7 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 ## Segment 2: Sketch it Out
 
 ### Segment 2 Roles: 
-- Ashley Burneka = X (Presentation)
+- Ashley Burneka = Circle (Presentation)
 - Cynthia Marin = X (Dashboard) 
 - David Aronson = Triangle (Machine Learning Model)
 - Josh Allen = Square (Repository)
@@ -238,3 +238,4 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 ![Slide_6](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_6.jpg)
 
 
+https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBvutI/edit?usp=sharing
