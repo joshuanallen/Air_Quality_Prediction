@@ -170,7 +170,6 @@ What's next?
 
 ![ERD_AQP.png](https://github.com/joshuanallen/Air_Quality_Prediction/blob/b207ed61928782d2105617b26d6c79aadce9aad8/Database/ERD_AQP.png)
 
-
 ### 5. Database Storage and Machine Learning
 
 We intend to use the relational database system, PostgreSQL and pgAdmin to display the data. 
@@ -197,7 +196,6 @@ There are a several advantages and disadvantages of using neural networks. The m
 
 Both of the disadvantages can be mitigated and accounted for.
 
-
 ## Dashboard
 
 Tableau will be used to create an interactive dashboard and JavaScript will be used to create a website to display our findings. We will also be creating a map that will show the Pollution Exposure, Health Risk and Socioeconomic impact on the given location.
@@ -206,23 +204,5 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 
 ## Segment 2: Sketch it Out
 
-### Segment 2 Roles: 
-- Ashley Burneka = X (Presentation)
-- Cynthia Marin = X (Dashboard) 
-- David Aronson = Triangle (Machine Learning Model)
-- Josh Allen = Square (Repository)
 
-### Segment 2 Tasks:
-
-#### Ashley Burneka = Circle (Presentation)
-
-#### Cynthia Marin = X (Dashboard)
-1. Dashboard Creation
-
-#### David Aronson = Triangle (Database) 
-
-#### Josh Allen = Square (Machine Learning Model)
-
-
-## Dashboard
 
