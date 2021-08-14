@@ -47,5 +47,19 @@ PRIMARY KEY (Census_Tract)
 DROP TABLE Location
 DROP TABLE Pollution_Exposure
 DROP TABLE Socioeconomic
+DROP TABLE input_variables
 
-SELECT * FROM SOCIOECONOMIC
+-- SELECT pe.ozone, pe.pm2_5, pe.diesel_pm, pe.pesticides, pe.tox_release, pe.traffic 
+-- INTO input_variables
+-- FROM POLLUTION_EXPOSURE as pe
+-- INNER JOIN SOCIOECONOMIC as se
+-- ON pe.census_tract = se.census_tract;
+
+SELECT pe.census_tract AS ct, pe.ozone, pe.pm2_5, pe.diesel_pm, pe.pesticides, pe.tox_release, se.*
+FROM POLLUTION_EXPOSURE AS pe
+INNER JOIN SOCIOECONOMIC AS se
+ON pe.census_tract = se.census_tract;
+
+
+SELECT * FROM input_variables
+SELECT * FROM socioeconomic

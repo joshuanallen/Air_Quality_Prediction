@@ -30,5 +30,5 @@ Low_Birth_Weight float
 Cardiovascular_Disease float
 Poverty int
 Unemployment int
-Traffic float fk FK >- Pollution_Exposure.Traffic
+Traffic float
 
