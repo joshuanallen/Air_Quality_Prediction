@@ -89,45 +89,54 @@ Limitations of multiple linear regression model:
 
 
 2. **Random Forest Regressor Model**:
-- Asthma: 
+- Asthma: The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the asthma rate based on the six feature variables.
     - R<sup>2</sup> value: 0.602
 
-- Low Birth Weight:
+- Low Birth Weight: The random forest regressor model resulted in a **small improvement over the multiple linear regression model** in its ability to predict the low birth weight rate based on the six feature variables. However, the improved model has a significantly lower R<sup>2</sup> value with the low birth weight target variable than the other four target variables using the same feature data. This may imply an overall lack of correlation between the feature and low birth weight target variables.
     - R<sup>2</sup> value: 0.115
 
-- Cardiovascular Disease:
+- Cardiovascular Disease: The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the cardivascular disease rate based on the six feature variables.
     - R<sup>2</sup> value: 0.561
 
-- Poverty:
+- Poverty: The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the poverty rate based on the six feature variables.
     - R<sup>2</sup> value: 0.500
 
-- Unemployment
+- Unemployment: The random forest regressor model resulted in a **small improvement over the multiple linear regression model** in its ability to predict the unemployment rate based on the six feature variables. However, the low R<sup>2</sup> value implies this model still is not a reliable regression model for this target variable. This may imply an overall lack of correlation between the feature and unemployment rate target variables.
     - R<sup>2</sup> value: 0.300
 
-
 Limitations of Random Forest Regressor Model:
-- Subject to overfitting datasets, so models cannot be reused on additional datasets.
+- Subject to overfitting on datasets, so models may not be able to be reused on additional datasets.
 - More of a black box approach, which prevents learnings for any specific feature variable and forced to look at the dataset as a whole.
 - ...
 
 3. **Random Forest Classification Model**:
-- Asthma: 
-    - R<sup>2</sup> value: 0.612
+- Asthma:
+    - Accuracy: 0.612
 
-- Low Birth Weight:
-    - R<sup>2</sup> value: 0.666
+- Low Birth Weight: 
+    - Accuracy:: 0.666
 
 - Cardiovascular Disease:
-    - R<sup>2</sup> value: 0.599
+    - Accuracy:: 0.599
 
 - Poverty:
-    - R<sup>2</sup> value: 0.493
+    - Accuracy:: 0.493
 
 - Unemployment
-    - R<sup>2</sup> value: 0.442
+    - Accuracy:: 0.442
 
+Limitations of Random Forest Classifier Model:
+Bucketing may have improved the predictions for the "Low Birth Weight" and "Unemployment models because the data may not be as continuous as the other target variables. Therefore, taking a different approach using a classification model resulted in improved models.
 
 Dataset limitations:
-
+- Variables measured are taken over a specific time frame and may be subject to large amounts of variablility within the dataset, laerger dataset may be neede
+- Some feature variables are difficult to measure and/or estimate and provide a reliable continuous dataset.
+- Based on the descriptions from the original dataset, some of the target variable data points are based on models that may not correlate with the feature variables we have chosen.
+- Limited to dataset used to create specific model for  
 
 Next Steps & future iterations:
+- Understand and include more target variables from dataset. Include non-"air quality" data and include more health data.
+    - Examples: water quality data, health factors, excercise
+- Iterate through regression models reducing feature variables based on hierarchical output feature analysis
+- Include additional datasets from directly from reporting sources
+- Add additional time frames for data inclusion to expand dataset
