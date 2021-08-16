@@ -126,7 +126,8 @@ Limitations of Random Forest Regressor Model:
     - Accuracy:: 0.442
 
 Limitations of Random Forest Classifier Model:
-Bucketing may have improved the predictions for the "Low Birth Weight" and "Unemployment models because the data may not be as continuous as the other target variables. Therefore, taking a different approach using a classification model resulted in improved models.
+- Subject to overfitting specific to dataset
+- Bucketing may have improved the predictions for the "Low Birth Weight" and "Unemployment models because the data may not be as continuous as the other target variables. Therefore, taking a different approach using a classification model resulted in improved models.
 
 Dataset limitations:
 - Variables measured are taken over a specific time frame and may be subject to large amounts of variablility within the dataset, laerger dataset may be neede
