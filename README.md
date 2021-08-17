@@ -217,7 +217,10 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 3. Built story board for visuals and presentation in Tableau
 
 #### Cynthia Marin = X (Dashboard)
-1. Dashboard Outline
+1. Dashboard Outline 
+2. Layout of presentation Google Slides
+3. Outline of the story that will be told 
+4. Gathering and reviewing group data
 
 #### David Aronson = Triangle (Database) 
 1. Added dataset to SQL database
