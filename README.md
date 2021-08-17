@@ -344,7 +344,8 @@ https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBv
 1. Presentation prep
 
 #### David Aronson = Triangle
-1. Presentation and slides structure
+1. Presentation and slides structure (https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.ge70a11bbf6_0_14)
+
 
 #### Josh Allen = Square
 1. Added results and screenshots for all predictive models.
