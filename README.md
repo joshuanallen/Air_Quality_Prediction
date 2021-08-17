@@ -1,7 +1,7 @@
 # Air Quality Predicting prevalence of Socioeconomic variable rates related to health and wealth of area in California
 
 ## Project Overview:
-In this project we are analyzing air quality data points from the EPA for each county in California to predict trends relating the detrimental effects of pollution on a county's socioeconomic indicators.
+In this project we are analyzing air quality data points from the EPA for each census tract in California to observe trends relating the detrimental effects of pollution on a county's socioeconomic indicators.
 
 ### Project Group Members: 
 - Ashley Burneka
@@ -16,7 +16,7 @@ In this project we are analyzing air quality data points from the EPA for each c
 ### Segment 1 Roles: 
 - Ashley Burneka = X (Technologies, Tools, and Presentation)
 - Cynthia Marin = Circle (Database) 
-- David Aronson = Triangle (Machine Learning Model)
+- David Aaronson = Triangle (Machine Learning Model)
 - Josh Allen = Square (Repository)
 
 ### Segment 1 Tasks:
@@ -34,7 +34,7 @@ In this project we are analyzing air quality data points from the EPA for each c
 6. Populated tables importing our dataset on pgAdmin4 
 
 
-#### David Aronson = Triangle (Machine Learning Model)
+#### David Aaronson = Triangle (Machine Learning Model)
 1. Generated a simple cleaned version of the data (draft cleaning, will revisit)
 2. Analyzed and decided on approach to generate eventual final machine learning model
 3. Coded and ran a first draft version of ML as a regression, just as a sample. Later model will be different.
@@ -206,7 +206,7 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 ### Segment 2 Roles: 
 - Ashley Burneka = Circle
 - Cynthia Marin = X
-- David Aronson = Triangle
+- David Aaronson = Triangle
 - Josh Allen = Square
 
 ### Segment 2 Tasks:
@@ -222,7 +222,7 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 3. Outline of the story that will be told 
 4. Gathering and reviewing group data
 
-#### David Aronson = Triangle (Database) 
+#### David Aaronson = Triangle (Database) 
 1. Added dataset to SQL database
 2. Created multiple data tables for feature dataset, target dataset, location data, and combined data
 3. Updated ERD to include all tables
@@ -328,7 +328,7 @@ https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBv
 ### Segment 3 Roles: 
 - Ashley Burneka = Circle
 - Cynthia Marin = X
-- David Aronson = Triangle
+- David Aaronson = Triangle
 - Josh Allen = Square
 
 ### Segment 3 Tasks:
@@ -346,7 +346,7 @@ https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBv
 #### Cynthia Marin = X
 1. Presentation prep
 
-#### David Aronson = Triangle
+#### David Aaronson = Triangle
 1. Presentation and slides structure (https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.ge70a11bbf6_0_14)
 
 
