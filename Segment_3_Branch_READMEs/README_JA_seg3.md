@@ -5,6 +5,8 @@ Role: Square (Machine Learning Model)
 
 **Segment 3 Completed Tasks:**
 1. Added results screenshots for linear regression models and random forest models.
+2. Added screenshots of decision tree visuals for random forest models
+3. Added discussion about dataset and model limitations
 
 #### Model Choice process
 At the beginning of this project we had intended on using an artificial neural network to make our predictions, however, after some discussion and feedback, it was decided to attempt simpler models because finding and tuning a neural network model would've been too time consuming. Instead we followed the model building process below.
@@ -61,7 +63,7 @@ At the beginning of this project we had intended on using an artificial neural n
         - Traffic: -0.141
         - Intercept: 8.320
 
-- Poverty: Modeling predictions for poverty rating based on the six feature variables resulted in a low r<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The "Ozone" and "Diesel PM" feature variables had the largest weight coefficients in this model.
+- Poverty: Modeling predictions for poverty rating based on the six feature variables resulted in a low R<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The "Ozone" and "Diesel PM" feature variables had the largest weight coefficients in this model.
     - R<sup>2</sup> value: 0.125
     - Feature Variable Coefficients:
         - Ozone: 5.093
