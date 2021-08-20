@@ -349,7 +349,6 @@ https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBv
 #### David Aaronson = Triangle
 1. Presentation and slides structure (https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.ge70a11bbf6_0_14)
 
-
 #### Josh Allen = Square
 1. Added results and screenshots for all predictive models.
 2. Added screenshots of decision tree visuals for random forest models
@@ -421,7 +420,6 @@ https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBv
 
 Limitations of multiple linear regression model:
 - Possibly too many feature variables resulting inconclusive results from model
-- 
 
 
 2. **Random Forest Regressor Model**:
@@ -462,15 +460,45 @@ Limitations of Random Forest Regressor Model:
 - Unemployment
     - Accuracy:: 0.442
 
-Limitations of Random Forest Classifier Model:
-Bucketing may have improved the predictions for the "Low Birth Weight" and "Unemployment models because the data may not be as continuous as the other target variables. Therefore, taking a different approach using a classification model resulted in improved models.
 
 
 #### Dataset
 Dataset limitations:
 - Variables measured are quite often an average taken over a specific time frame and may be subject to large amounts of variablility within the dataset
 - Some feature variables are difficult to measure and/or estimate and provide a reliable continuous dataset.
-- Based on the descriptions from the original dataset, some of the target variable data points are based on models that may not correlate with the feature variables we have chosen.  
+- Based on the descriptions from the original dataset, some of the target variable data points are based on models that may not correlate with the feature variables we have chosen.
+
+Limitations of Random Forest Classifier Model:
+Bucketing may have improved the predictions for the "Low Birth Weight" and "Unemployment models because the data may not be as continuous as the other target variables. Therefore, taking a different approach using a classification model resulted in improved models.
+
+
+---
+
+## Segment 4: Put It All Together
+
+### Segment 4 Roles: 
+- Ashley Burneka = Circle
+- Cynthia Marin = X
+- David Aaronson = Triangle
+- Josh Allen = Square
+
+### Segment 4 Tasks:
+
+#### All roles:
+1. Compile slides for presentation
+
+#### Ashley Burneka = Circle 
+
+
+#### Cynthia Marin = X
+
+
+#### David Aaronson = Triangle
+
+
+#### Josh Allen = Square
+
+
 
 
 #### Next Steps & future iterations:
