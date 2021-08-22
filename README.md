@@ -487,6 +487,7 @@ Bucketing may have improved the predictions for the "Low Birth Weight" and "Unem
 #### All roles:
 1. Compile slides for presentation (https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.p)
 2. Dashboard: (https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/AirQualityinCalifornia)
+3. Finalize GitHub content for grading
 
 
 
