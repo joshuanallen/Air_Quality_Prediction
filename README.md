@@ -524,7 +524,9 @@ Bucketing may have improved the predictions for the "Low Birth Weight" and "Unem
 
 #### Josh Allen = Square
 
+All group members prepared, wrote an outline, and then practised for the presentation. All group members got together and collectively modified the presentation, including time management, until the presentation was in the time limit, and got across the critical information and work of the project. 
 
+Once the presentation was complete, team members reviewed the contents to be submitted and confirmed that the project was as complete as possible.
 
 
 
