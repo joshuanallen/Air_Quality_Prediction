@@ -321,6 +321,28 @@ At the beginning of this project we had intended on using an artificial neural n
 
 https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBvutI/edit?usp=sharing
 
+
+### Database
+
+#### Preliminary Data preprocessing
+Reduction of columns from imported dataset to isolate variables for machine learning models includeing feature variables and target variables.
+
+Included columns:
+- Ozone
+- PM2.5
+- Diesel PM
+- Pesticides
+- Tox. Release 
+- Traffic
+- Asthma
+- Low Birth Weight
+- Cardiovascular Disease
+- Poverty
+- Unemployment
+
+Variables have been selected, and the tables have been cleaned, exported as CSVs, and then loaded into an SQL database stored on AWS RDS. For the related code, see ML_Data_Clean_And_Load_ADS_DA for Python clean and load, SQL_Schema_DA.sql for the SQL Schema code, DBD_pseudocode_DA.txt for the DBD pseudocode, and all of the files in the "datasets" folder for the CSV versions.
+
+
 ---
 
 ## Segment 3: Plug it in
@@ -501,6 +523,7 @@ Bucketing may have improved the predictions for the "Low Birth Weight" and "Unem
 
 
 #### Josh Allen = Square
+
 
 
 
