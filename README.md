@@ -518,9 +518,9 @@ Bucketing may have improved the predictions for the "Low Birth Weight" and "Unem
 
 
 #### Cynthia Marin = X
-1. Introduction putline (presentation)
+1. Introduction outline (presentation)
 2. Project purpose (presentation)
-3. [Script Outline](https://github.com/joshuanallen/Air_Quality_Prediction/blob/14cfd4449281b4fbd28f270d682e6c9e1d46256f/Segment_4_Branch_READMEs/README_CM4.md)
+3. [Introduction Presentation Script Outline](https://github.com/joshuanallen/Air_Quality_Prediction/blob/14cfd4449281b4fbd28f270d682e6c9e1d46256f/Segment_4_Branch_READMEs/README_CM4.md)
 
 
 #### David Aaronson = Triangle
