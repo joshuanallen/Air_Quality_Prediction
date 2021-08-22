@@ -1,7 +1,7 @@
 # Air Quality Predicting prevalence of Socioeconomic variable rates related to health and wealth of area in California
 
 ## Project Overview:
-In this project we are analyzing air quality data points from the EPA for each county in California to predict trends relating the detrimental effects of pollution on a county's socioeconomic indicators.
+In this project we are analyzing air quality data points from the EPA for each census tract in California to observe trends relating the detrimental effects of pollution on a county's socioeconomic indicators.
 
 ### Project Group Members: 
 - Ashley Burneka
@@ -16,7 +16,7 @@ In this project we are analyzing air quality data points from the EPA for each c
 ### Segment 1 Roles: 
 - Ashley Burneka = X (Technologies, Tools, and Presentation)
 - Cynthia Marin = Circle (Database) 
-- David Aronson = Triangle (Machine Learning Model)
+- David Aaronson = Triangle (Machine Learning Model)
 - Josh Allen = Square (Repository)
 
 ### Segment 1 Tasks:
@@ -34,7 +34,7 @@ In this project we are analyzing air quality data points from the EPA for each c
 6. Populated tables importing our dataset on pgAdmin4 
 
 
-#### David Aronson = Triangle (Machine Learning Model)
+#### David Aaronson = Triangle (Machine Learning Model)
 1. Generated a simple cleaned version of the data (draft cleaning, will revisit)
 2. Analyzed and decided on approach to generate eventual final machine learning model
 3. Coded and ran a first draft version of ML as a regression, just as a sample. Later model will be different.
@@ -206,7 +206,7 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 ### Segment 2 Roles: 
 - Ashley Burneka = Circle
 - Cynthia Marin = X
-- David Aronson = Triangle
+- David Aaronson = Triangle
 - Josh Allen = Square
 
 ### Segment 2 Tasks:
@@ -222,7 +222,7 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 3. Outline of the story that will be told 
 4. Gathering and reviewing group data
 
-#### David Aronson = Triangle (Database) 
+#### David Aaronson = Triangle (Database) 
 1. Added dataset to SQL database
 2. Created multiple data tables for feature dataset, target dataset, location data, and combined data
 3. Updated ERD to include all tables
@@ -321,6 +321,28 @@ At the beginning of this project we had intended on using an artificial neural n
 
 https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBvutI/edit?usp=sharing
 
+
+### Database
+
+#### Preliminary Data preprocessing
+Reduction of columns from imported dataset to isolate variables for machine learning models includeing feature variables and target variables.
+
+Included columns:
+- Ozone
+- PM2.5
+- Diesel PM
+- Pesticides
+- Tox. Release 
+- Traffic
+- Asthma
+- Low Birth Weight
+- Cardiovascular Disease
+- Poverty
+- Unemployment
+
+Variables have been selected, and the tables have been cleaned, exported as CSVs, and then loaded into an SQL database stored on AWS RDS. For the related code, see ML_Data_Clean_And_Load_ADS_DA for Python clean and load, SQL_Schema_DA.sql for the SQL Schema code, DBD_pseudocode_DA.txt for the DBD pseudocode, and all of the files in the "datasets" folder for the CSV versions.
+
+
 ---
 
 ## Segment 3: Plug it in
@@ -328,7 +350,7 @@ https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBv
 ### Segment 3 Roles: 
 - Ashley Burneka = Circle
 - Cynthia Marin = X
-- David Aronson = Triangle
+- David Aaronson = Triangle
 - Josh Allen = Square
 
 ### Segment 3 Tasks:
@@ -346,9 +368,8 @@ https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBv
 #### Cynthia Marin = X
 1. Presentation prep
 
-#### David Aronson = Triangle
+#### David Aaronson = Triangle
 1. Presentation and slides structure (https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.ge70a11bbf6_0_14)
-
 
 #### Josh Allen = Square
 1. Added results and screenshots for all predictive models.
@@ -421,7 +442,6 @@ https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBv
 
 Limitations of multiple linear regression model:
 - Possibly too many feature variables resulting inconclusive results from model
-- 
 
 
 2. **Random Forest Regressor Model**:
@@ -462,15 +482,52 @@ Limitations of Random Forest Regressor Model:
 - Unemployment
     - Accuracy:: 0.442
 
-Limitations of Random Forest Classifier Model:
-Bucketing may have improved the predictions for the "Low Birth Weight" and "Unemployment models because the data may not be as continuous as the other target variables. Therefore, taking a different approach using a classification model resulted in improved models.
 
 
 #### Dataset
 Dataset limitations:
 - Variables measured are quite often an average taken over a specific time frame and may be subject to large amounts of variablility within the dataset
 - Some feature variables are difficult to measure and/or estimate and provide a reliable continuous dataset.
-- Based on the descriptions from the original dataset, some of the target variable data points are based on models that may not correlate with the feature variables we have chosen.  
+- Based on the descriptions from the original dataset, some of the target variable data points are based on models that may not correlate with the feature variables we have chosen.
+
+Limitations of Random Forest Classifier Model:
+Bucketing may have improved the predictions for the "Low Birth Weight" and "Unemployment models because the data may not be as continuous as the other target variables. Therefore, taking a different approach using a classification model resulted in improved models.
+
+
+---
+
+## Segment 4: Put It All Together
+
+### Segment 4 Roles: 
+- Ashley Burneka = Circle
+- Cynthia Marin = X
+- David Aaronson = Triangle
+- Josh Allen = Square
+
+### Segment 4 Tasks:
+
+#### All roles:
+1. Compile slides for presentation (https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.p)
+2. Dashboard: (https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/AirQualityinCalifornia)
+3. Finalize GitHub content for grading
+
+
+
+#### Ashley Burneka = Circle 
+
+
+#### Cynthia Marin = X
+
+
+#### David Aaronson = Triangle
+
+
+#### Josh Allen = Square
+
+All group members prepared, wrote an outline, and then practised for the presentation. All group members got together and collectively modified the presentation, including time management, until the presentation was in the time limit, and got across the critical information and work of the project. 
+
+Once the presentation was complete, team members reviewed the contents to be submitted and confirmed that the project was as complete as possible.
+
 
 
 #### Next Steps & future iterations:
