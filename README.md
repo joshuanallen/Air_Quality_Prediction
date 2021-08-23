@@ -4,17 +4,18 @@
 
 [Project Overview](https://github.com/joshuanallen/Air_Quality_Prediction#project-overview)
 
-   [Project Group Members](https://github.com/joshuanallen/Air_Quality_Prediction#project-group-members)
+[Project Group Members](https://github.com/joshuanallen/Air_Quality_Prediction#project-group-members)
+
 
 [Segment 1: Sketch it Out](https://github.com/joshuanallen/Air_Quality_Prediction#segment-1-sketch-it-out)
 
-   [Project Topic](https://github.com/joshuanallen/Air_Quality_Prediction#1-project-topic)
+[Project Topic](https://github.com/joshuanallen/Air_Quality_Prediction#1-project-topic)
 
-   [Repository ](https://github.com/joshuanallen/Air_Quality_Prediction#2-repository)
+[Repository ](https://github.com/joshuanallen/Air_Quality_Prediction#2-repository)
 
-   [Data Source](https://github.com/joshuanallen/Air_Quality_Prediction#3-data-source)
+[Data Source](https://github.com/joshuanallen/Air_Quality_Prediction#3-data-source)
 
-   [Data Cleaning and Analysis](link)
+[Data Cleaning and Analysis](link)
 
 [Text](link)
 
@@ -136,7 +137,7 @@ For our final project our team has decided to take air qaulity data from differe
 * Latitude
 
 
-### [2. Repository ]](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
+### [2. Repository](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 We have created our teams GitHub repository, with a branch for each team member to work from. We also had one team member,(square role), establish communication protocols and generate a project management deashboard. 
 
@@ -184,7 +185,7 @@ Weekly sync zoom meeting:
   - Completed tasks will be reviewed and discussed in weekly sync. Pull request performed by branch owner and then merged after discussion and approval
 
 
-### [3. Data Source ](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
+### [3. Data Source](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 Data Source: https://data.ca.gov/dataset/calenviroscreen-3-0-results/resource/89b3f4e9-0bf8-4690-8c6f-715a717f3fae
 
