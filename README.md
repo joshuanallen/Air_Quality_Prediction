@@ -353,6 +353,13 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
 1. Final visuals for presentation
 2. Update publicly available interactive visual 
 
+Dashboard: https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/AirQualityinCalifornia
+
+Using Tableua, a storyboard was created to showcase some visuals generated using our clean data and to try and tell a story about said data. 
+
+<img width="786" alt="LBW Traffic " src="https://user-images.githubusercontent.com/79999761/130381068-5c363250-81d9-4c1b-a389-32695ec84864.png">
+
+
 #### Cynthia Marin = X
 1. Presentation prep
 2. Completing a final round of code testing
