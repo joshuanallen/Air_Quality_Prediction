@@ -672,6 +672,7 @@ https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/A
 2. Added feature importance analyses for random forest models
 3. Added supporting argument images for random forest model implementation
 4. Added preliminary prediction model overfitting analysis using adjusted R<sup>2</sup> value comparison
+5. [Machine Learning Presentation Script Outline](https://docs.google.com/document/d/1fHDXoOs1t6EYES_G0ZbfIHjWY9ve_P4amvKNMBSvPOs/edit?usp=sharing)
 
 ### Final Presentation: https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.p
 
