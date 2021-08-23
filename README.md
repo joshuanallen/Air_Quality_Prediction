@@ -1,7 +1,7 @@
 # Air Quality Predicting prevalence of Socioeconomic variable rates related to health and wealth of area in California
 
 ## Project Overview:
-In this project we are analyzing air quality data points from the EPA for each census tract in California to observe trends relating the detrimental effects of pollution on a county's socioeconomic indicators.
+THis project's goal is to analyze air quality data from the California EPA by census tract in California to check for correlation with health and economic outcomes.
 
 ### Project Group Members: 
 - Ashley Burneka
@@ -306,18 +306,7 @@ At the beginning of this project we had intended on using an artificial neural n
 - Limitations: Artificial bucketing can lead to false model improvements. Also, since target data is continuous, we lose prediction accuracy from the regressor model based on the prediction only being a range of values.
 
 
-### [Dashboard Outline](https://github.com/joshuanallen/Air_Quality_Prediction/blob/bfedb9267ae4342d36a82bb08716996462551450/Dashboard_Segment_2.pdf)
-![Slide_1](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_1.jpg)
-![Slide_2](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_2.jpg)
-![Slide_3.1jpg](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.1jpg.jpg)
-![Slide_3.2](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.2.jpg)
-![Slide_3.3](https://github.com/joshuanallen/Air_Quality_Prediction/blob/f1171f1db4bdaaa26d88c3193809cb48999af9fe/images/Dashboard/Slide_3.3.jpg)
-![Slide_7](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_7.jpg)
-![Slide_8](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_8.jpg)
-![Slide_4](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_4.jpg)
-![Slide_5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_5.jpg)
-![Slide_6](https://github.com/joshuanallen/Air_Quality_Prediction/blob/9a88cf04e9b4b6c2d90a3349c6c8b3777ac8e40e/images/Dashboard/Slide_6.jpg)
-
+### [Initial Dashboard Outline](https://github.com/joshuanallen/Air_Quality_Prediction/blob/bfedb9267ae4342d36a82bb08716996462551450/Dashboard_Segment_2.pdf)
 
 https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBvutI/edit?usp=sharing
 
@@ -379,14 +368,16 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
 
 
 
-#### Predictive Model Results
-**Predictive Model Results overview:**
-- Best overall target variable and prediction model...
-- Target variable with the least accurate predictions is possibly due to need for more information from additional feature variables. Can also imply that there are external factors implying prediction with limited dataset is limited to max out even the most robust models...
-- Model performance maxed out based on current dataset
+#### Prediction Model Results
+**Prediction Model Results overview:**
+- Best overall target variable and prediction model:
+    - Low Birth Weight prediction Random Forest Classifier model had a prediction accuracy of 67%
+    - Asthma prediction random forest regressor model had an adjusted R<sup>2</sup> value of 0.602
+- Dataset was too complex to build reliable multiple linear regression model.
+- "Low Birth Weight" and "Unemployment" target variables were the most difficult to create an accurate prediction moidel based on our feature dataset.
 
-1. **Multiple Linear Regression Best Fit Models**:
-- Asthma: Modeling predictions for asthma rating based on the six feature variables resulted in a significantly low R<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The highest coefficient weights were the "Diesel PM" and "Ozone" variables.
+1. [**Multiple Linear Regression Best Fit Models**](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/Code/AQI_Prediction_Multivariable_Linear_Regression_v2.ipynb):
+- [Asthma](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Linear_regression_models/asthma_linear_regression_model.png): Modeling predictions for asthma rating based on the six feature variables resulted in a significantly low R<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The highest coefficient weights were the "Diesel PM" and "Ozone" variables.
     - R<sup>2</sup> value: 0.054
     - Feature Variable Coefficients:
         - Ozone: 3.309
@@ -397,7 +388,7 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
         - Traffic: -1.869
         - Intercept: 52.504
 
-- Low Birth Weight: Modeling predictions for low birth weight percentage based on the six feature variables resulted in a significantly low R<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. There was not a dominant feature variable weight in this model and the "Pesticides" and "Tox. Release" variables had a negligible weights.
+- [Low Birth Weight](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Linear_regression_models/low_birth_rate_linear_regression_model.png): Modeling predictions for low birth weight percentage based on the six feature variables resulted in a significantly low R<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. There was not a dominant feature variable weight in this model and the "Pesticides" and "Tox. Release" variables had a negligible weights.
     - R<sup>2</sup> value: 0.056
     - Feature Variable Coefficients:
         - Ozone: 0.151
@@ -408,7 +399,7 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
         - Traffic: 0.051
         - Intercept: 4.981
 
-- Cardiovascular Disease: Modeling predictions for cardiovascular disease ratings based on the six feature variables resulted in a low R<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The "Ozone" feature variable had the largest weight in this model.
+- [Cardiovascular Disease](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Linear_regression_models/cardiovascular_disease_linear_regression_model.png): Modeling predictions for cardiovascular disease ratings based on the six feature variables resulted in a low R<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The "Ozone" feature variable had the largest weight in this model.
     - R<sup>2</sup> value: 0.171
     - Feature Variable Coefficients:
         - Ozone: 1.277
@@ -419,7 +410,7 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
         - Traffic: -0.141
         - Intercept: 8.320
 
-- Poverty: Modeling predictions for poverty rating based on the six feature variables resulted in a low r<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The "Ozone" and "Diesel PM" feature variables had the largest weight coefficients in this model.
+- [Poverty](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Linear_regression_models/poverty_linear_regression_model.png): Modeling predictions for poverty rating based on the six feature variables resulted in a low r<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The "Ozone" and "Diesel PM" feature variables had the largest weight coefficients in this model.
     - R<sup>2</sup> value: 0.125
     - Feature Variable Coefficients:
         - Ozone: 5.093
@@ -430,7 +421,7 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
         - Traffic: 0.283
         - Intercept: 36.412
 
-- Unemployment: Modeling predictions for unemployment rating based on the six feature variables resulted in a low R<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The "Ozone"  feature variable had the largest weight coefficient in this model.
+- [Unemployment](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Linear_regression_models/unemployment_linear_regression_model.png): Modeling predictions for unemployment rating based on the six feature variables resulted in a low R<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The "Ozone"  feature variable had the largest weight coefficient in this model.
     - R<sup>2</sup> value: 0.010
     - Feature Variable Coefficients:
         - Ozone: 1.522
@@ -443,57 +434,107 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
 
 Limitations of multiple linear regression model:
 - Possibly too many feature variables resulting inconclusive results from model
+- Limited interpretation when using a large amount of input variables
 
+#### Random Forest Models
+The Random Forest models both significantly improved prediction accuracy over the linear regression models. The random forest approach was chosen because of its ability to handle more complex datasets than the linear models. Random forest models are a great alternative to running a deep learning network because they inherently reduce overfitting by design, they can handle outlier data, and they're less resource intensive and more easily interpreted than a artificial neural network. 
 
-2. **Random Forest Regressor Model**:
-- Asthma: The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the asthma rate based on the six feature variables.
+The image below shows an a example of one of the estimators in the random forest model creating a decision tree. As more trees are added, the model tends to reduce the possibility of overfitting, but noisy datasets can negate this.
+
+**Random Forest Model Decision Tree Example Visualization**
+![Random Forest Model Decision Tree Example Visualization](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/decision-tree-visual.png)
+
+**Random Forest Model Decision Tree Example Visualization (Zoom)**
+![Random Forest Model Decision Tree Example Visualization (Zoom)](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/decision-tree-visual-closeup.png)
+
+2. [**Random Forest Regressor Model**](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/Code/AQI_Prediction_Random_Forest_Regressor_model_v4.ipynb):
+The results for the random forest regressor model outperfomed the linear regression model significantly. However, the regression approach did not generate quality prediction models for the "Low Birth Weight" and "Unemployment" target variables as their accuracies still remained lower than we deemed a reliable model.
+
+- [Asthma](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/asthma_rf_regressor_model.png): The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the asthma rate based on the six feature variables.
     - R<sup>2</sup> value: 0.602
+    **Asthma Model Prediction vs Actual Plot**
+    ![Asthma Model Prediction vs Actual Plot](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Regressor_models/rfr_asthma_prediction_plot.png)
 
-- Low Birth Weight: The random forest regressor model resulted in a **small improvement over the multiple linear regression model** in its ability to predict the low birth weight rate based on the six feature variables. However, the improved model has a significantly lower R<sup>2</sup> value with the low birth weight target variable than the other four target variables using the same feature data. This may imply an overall lack of correlation between the feature and low birth weight target variables.
+- [Low Birth Weight](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/low_birth_rate_rf_regressor_model.png): The random forest regressor model resulted in a **small improvement over the multiple linear regression model** in its ability to predict the low birth weight rate based on the six feature variables. However, the improved model has a significantly lower R<sup>2</sup> value with the low birth weight target variable than the other four target variables using the same feature data. This may imply an overall lack of correlation between the feature and low birth weight target variables.
     - R<sup>2</sup> value: 0.115
+    **Low Birth Weight Model Prediction vs Actual Plot**
+    ![Low Birth Weight Model Prediction vs Actual Plot](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Regressor_models/rfr_lbw_prediction_plot.png)
 
-- Cardiovascular Disease: The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the cardivascular disease rate based on the six feature variables.
+- [Cardiovascular Disease](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/cardiovascular_disease_rf_regressor_model.png): The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the cardivascular disease rate based on the six feature variables.
     - R<sup>2</sup> value: 0.561
+    **Cardiovascular Disease Model Prediction vs Actual Plot**
+    ![Cardiovascular Disease Model Prediction vs Actual Plot](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Regressor_models/rfr_cvd_prediction_plot.png)
 
-- Poverty: The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the poverty rate based on the six feature variables.
+- [Poverty](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/poverty_rf_regressor_model.png): The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the poverty rate based on the six feature variables.
     - R<sup>2</sup> value: 0.500
+    **Poverty Model Prediction vs Actual Plot**
+    ![Poverty Model Prediction vs Actual Plot](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Regressor_models/rfr_poverty_prediction_plot.png)
 
-- Unemployment: The random forest regressor model resulted in a **small improvement over the multiple linear regression model** in its ability to predict the unemployment rate based on the six feature variables. However, the low R<sup>2</sup> value implies this model still is not a reliable regression model for this target variable. This may imply an overall lack of correlation between the feature and unemployment rate target variables.
+- [Unemployment](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/unemployment_rf_regressor_model.png): The random forest regressor model resulted in a **small improvement over the multiple linear regression model** in its ability to predict the unemployment rate based on the six feature variables. However, the low R<sup>2</sup> value implies this model still is not a reliable regression model for this target variable. This may imply an overall lack of correlation between the feature and unemployment rate target variables.
     - R<sup>2</sup> value: 0.300
+    **Unemployment Model Prediction vs Actual Plot**
+    ![Unemployment Model Prediction vs Actual Plot](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Regressor_models/rfr_ue_prediction_plot.png)
 
 
 Limitations of Random Forest Regressor Model:
-- Subject to overfitting on datasets, so models may not be able to be reused on additional datasets.
-- More of a black box approach, which prevents learnings for any specific feature variable and forced to look at the dataset as a whole.
-- ...
+- Subject to overfitting on noisy datasets, so models need more testing on if it's overfit to data.
+- Poor fit for "low birth weight" and "unemployment" target variables possibly due to increased data variability at higher rates beacuse of lack of training data points
 
-3. **Random Forest Classification Model**:
-- Asthma:
-    - Accuracy: 0.612
+3. [**Random Forest Classification Model](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/Code/AQI_Prediction_Random_Forest_Classification_Model_v4.ipynb)**:
+As the evaluation metrics between classification models and regression models are not a direct comparison, we cannot directly evaluate the improvement of the model over the linear regression model and the random forest regressor model. However, because of the differing approach to the and the poor overall performance of the linear regression model, we can confidently say this model was an improvement over the multiple linear regression models. The random forest classification model was also able to produce an improved prediction model for the "Low Birth Weight" and "Unemployment" target variables.
+
+- Asthma: 
+    - Model Accuracy: 0.612
+    **Asthma Prediction Model Confusion Matrix**
+    ![Asthma Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_asthma_confusion_matrix.png)
+
+    **Asthma Prediction Model Classification Report**
+    ![Asthma Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_asthma_classifcation_report.png)
 
 - Low Birth Weight: 
     - Accuracy:: 0.666
+    **Low Birth Weight Prediction Model Confusion Matrix**
+    ![Low Birth Weight Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_lbw_confusion_matrix.png)
+    
+    **Low Birth Weight Prediction Model Classification Report**
+    ![Low Birth Weight Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_lbw_classification_report.png)
 
 - Cardiovascular Disease:
     - Accuracy:: 0.599
+    **Cardiovascular Disease Prediction Model Confusion Matrix**
+    ![Cardiovascular Disease Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_cvd_confusion_matrix.png)
+    
+    **Cardiovascular Disease Prediction Model Classification Report**
+    ![Cardiovascular Disease Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_cvd_classification_report.png)
 
 - Poverty:
     - Accuracy:: 0.493
+    **Poverty Prediction Model Confusion Matrix**
+    ![Poverty Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_poverty_confusion_matrix.png)
+    
+    **Poverty Prediction Model Classification Report**
+    ![Poverty Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_poverty_classification_report.png)
+
 
 - Unemployment
     - Accuracy:: 0.442
+    **Unemployment Prediction Model Confusion Matrix**
+    ![Unemployment Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_ue_confusion_matrix.png)
+    **Unemployment Prediction Model Classification Report**
+    ![Unemployment Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_ue_classification_report.png)
 
+
+Limitations of Random Forest Classifier Model:
+- Bucketing may have improved the predictions for the "Low Birth Weight" and "Unemployment" models because the data may not be as continuous as the other target variables. Therefore, taking a different approach using a classification model resulted in improved models. 
+- Classifying the data manually also may have introduced bias into how the binning was set up. May want to try differing binning techniques to improve results. 
+- Random forest models can be subject to overfitting with noisy datasets, so would need to evaluate if model improvements can be attributed to overfitting
 
 
 #### Dataset
 Dataset limitations:
 - Variables measured are quite often an average taken over a specific time frame and may be subject to large amounts of variablility within the dataset
 - Some feature variables are difficult to measure and/or estimate and provide a reliable continuous dataset.
-- Based on the descriptions from the original dataset, some of the target variable data points are based on models that may not correlate with the feature variables we have chosen.
-
-Limitations of Random Forest Classifier Model:
-Bucketing may have improved the predictions for the "Low Birth Weight" and "Unemployment models because the data may not be as continuous as the other target variables. Therefore, taking a different approach using a classification model resulted in improved models.
-
+- Feature impoortance analysis has shown the "Pesticides" feature variable was the lowest importance all of the models.
 
 ---
 
@@ -512,7 +553,9 @@ Bucketing may have improved the predictions for the "Low Birth Weight" and "Unem
 2. Dashboard: (https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/AirQualityinCalifornia)
 3. Finalize GitHub content for grading
 
+All group members prepared, wrote an outline, and then practised for the presentation. All group members got together and collectively modified the presentation, including time management, until the presentation was in the time limit, and got across the critical information and work of the project. 
 
+Once the presentation was complete, team members reviewed the contents to be submitted and confirmed that the project was as complete as possible.
 
 #### Ashley Burneka = Circle 
 
@@ -527,16 +570,21 @@ Bucketing may have improved the predictions for the "Low Birth Weight" and "Unem
 
 
 #### Josh Allen = Square
+1. Created confusion matrices for random forest classification models
+2. Added feature importance analyses for random forest models
+3. Added supporting argument images for random forest model implementation
+4. Added preliminary prediction model overfitting analysis using adjusted R<sup>2</sup> value comparison
 
-All group members prepared, wrote an outline, and then practised for the presentation. All group members got together and collectively modified the presentation, including time management, until the presentation was in the time limit, and got across the critical information and work of the project. 
 
-Once the presentation was complete, team members reviewed the contents to be submitted and confirmed that the project was as complete as possible.
+### Final Presentation: https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.p
 
-
-
-#### Next Steps & future iterations:
+### Next Steps & future iterations:
 - Improve model training and include more target variables from source dataset. Include non-"air quality" data and include more health data.
     - Examples: water quality data, health factors, excercise
 - Iterate through regression models reducing feature variables based on hierarchical output feature analysis
 - Include additional datasets from directly from reporting sources
 - Add additional time frames for data inclusion to expand dataset
+- Introduce SMOTEEN sampling technique to balance feature dataset to improve training as current dataset seems skewed towards lower rates in target variables.
+- Evaluate the models for overfitting to our current dataset: 
+    - Test model results on updated dataset from same source data: [CalEnviroScreen 4.0](https://calenviroscreen-oehha.hub.arcgis.com/#Data)
+    - Run parameter testing analysis: [Overfitting in machine learning modules](https://machinelearningmastery.com/overfitting-machine-learning-models/)
