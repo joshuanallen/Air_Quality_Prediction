@@ -43,7 +43,7 @@
   
 
 - [Segment 3: Plug it in](https://github.com/joshuanallen/Air_Quality_Prediction#segment-3-plug-it-in)
-  - [Final Dashboard]()
+  - [Final Dashboard](https://github.com/joshuanallen/Air_Quality_Prediction#final-dashboard)
   - [Prediction Model Results](https://github.com/joshuanallen/Air_Quality_Prediction#prediction-model-results)
 
   - [Multiple Linear Regression Best Fit Models]()
