@@ -16,47 +16,47 @@
 
   - [Data Source](https://github.com/joshuanallen/Air_Quality_Prediction#3-data-source)
 
-  [Data Cleaning and Analysis](https://github.com/joshuanallen/Air_Quality_Prediction#4-data-cleaning-and-analysis)
+  - [Data Cleaning and Analysis](https://github.com/joshuanallen/Air_Quality_Prediction#4-data-cleaning-and-analysis)
 
-  [Database Storage and Machine Learning](https://github.com/joshuanallen/Air_Quality_Prediction#4-data-cleaning-and-analysis)
+  - [Database Storage and Machine Learning](https://github.com/joshuanallen/Air_Quality_Prediction#4-data-cleaning-and-analysis)
 
-  [Database Storage and Machine Learning](https://github.com/joshuanallen/Air_Quality_Prediction#5-database-storage-and-machine-learning)
+  - [Database Storage and Machine Learning](https://github.com/joshuanallen/Air_Quality_Prediction#5-database-storage-and-machine-learning)
 
-  [Dashboard](https://github.com/joshuanallen/Air_Quality_Prediction#dashboard)
+  - [Dashboard](https://github.com/joshuanallen/Air_Quality_Prediction#dashboard)
   
   
 
-[Segment 2: Sketch it Out](https://github.com/joshuanallen/Air_Quality_Prediction#segment-2-sketch-it-out)
+- [Segment 2: Sketch it Out](https://github.com/joshuanallen/Air_Quality_Prediction#segment-2-sketch-it-out)
 
-  [Machine Learning Process](https://github.com/joshuanallen/Air_Quality_Prediction#machine-learning-process)
+  - [Machine Learning Process](https://github.com/joshuanallen/Air_Quality_Prediction#machine-learning-process)
 
-  [Data variable definitions](https://github.com/joshuanallen/Air_Quality_Prediction#data-variable-definitions)
+  - [Data variable definitions](https://github.com/joshuanallen/Air_Quality_Prediction#data-variable-definitions)
 
-  [Splitting training and testing sets](https://github.com/joshuanallen/Air_Quality_Prediction#splitting-training-and-testing-sets)
+  - [Splitting training and testing sets](https://github.com/joshuanallen/Air_Quality_Prediction#splitting-training-and-testing-sets)
 
-  [Model Choice process](https://github.com/joshuanallen/Air_Quality_Prediction#model-choice-process)
+  - [Model Choice process](https://github.com/joshuanallen/Air_Quality_Prediction#model-choice-process)
 
-  [Initial Dashboard Outline](https://github.com/joshuanallen/Air_Quality_Prediction#initial-dashboard-outline)
+  - [Initial Dashboard Outline](https://github.com/joshuanallen/Air_Quality_Prediction#initial-dashboard-outline)
 
-  [Database](https://github.com/joshuanallen/Air_Quality_Prediction#database)
+  - [Database](https://github.com/joshuanallen/Air_Quality_Prediction#database)
   
   
 
-[Segment 3: Plug it in](https://github.com/joshuanallen/Air_Quality_Prediction#segment-3-plug-it-in)
+- [Segment 3: Plug it in](https://github.com/joshuanallen/Air_Quality_Prediction#segment-3-plug-it-in)
 
-  [Prediction Model Results](https://github.com/joshuanallen/Air_Quality_Prediction#prediction-model-results)
+  - [Prediction Model Results](https://github.com/joshuanallen/Air_Quality_Prediction#prediction-model-results)
 
-  [Multiple Linear Regression Best Fit Models]()
+  - [Multiple Linear Regression Best Fit Models]()
 
-  [Random Forest Models](https://github.com/joshuanallen/Air_Quality_Prediction#random-forest-models)
+  - [Random Forest Models](https://github.com/joshuanallen/Air_Quality_Prediction#random-forest-models)
   
   
 
-[Segment 4: Put It All Together](https://github.com/joshuanallen/Air_Quality_Prediction#segment-4-put-it-all-together)
+- [Segment 4: Put It All Together](https://github.com/joshuanallen/Air_Quality_Prediction#segment-4-put-it-all-together)
 
-  [Final Conclusions](https://github.com/joshuanallen/Air_Quality_Prediction#final-conclusions)
+  - [Final Conclusions](https://github.com/joshuanallen/Air_Quality_Prediction#final-conclusions)
 
-  [Next Steps & future iterations](https://github.com/joshuanallen/Air_Quality_Prediction#next-steps--future-iterations)
+  - [Next Steps & future iterations](https://github.com/joshuanallen/Air_Quality_Prediction#next-steps--future-iterations)
 
 
 
@@ -418,10 +418,28 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
 
 [Tableau Public Storyboard](https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/AirQualityinCalifornia)
 
-Using Tableua, a storyboard was created to showcase some visuals generated using our clean data and to try and tell a story about said data. 
+Using Tableua, a storyboard was created to showcase some visuals generated using our clean data and to try and tell a story about said data. In the below images you can see that we chose some of our target variable data and some of the feature variables or environmental exposure indicators such as low birth weight and traffic, low birth weight and PM 2.5 and low birth weight and ozone. Each visual is interactive, allowing the user to filter the data or select things such as birth weight or the amount of traffic, as seen in the image below: 
 
-[Low Birth Weight and Traffic]()
+[Low Birth Weight and Traffic](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/LBW%20Traffic%20.png)
 
+(https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/LBW%20and%20traffic%201%20.png)
+
+[Low Birth Weight and PM 2.5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/LBW%20and%20PM%202.5.png)
+
+[Low Birth Weight and Ozone](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Low%20Birth%20Weight%20and%20Ozone%20.png)
+ 
+Other variables chosen include asthma and PM 2.5 and Asthma and traffic. You can see that this does show that there is some correlations between asthma and PM 2.5 in certain regions of California, however asthma related emergency department visits do not appear to be highly correlated with traffic in the state.
+
+[Asthma and Pm 2.5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Asthma%20and%20PM%202.5.png)
+[Asthma and Traffic]()
+
+
+[Cardiovascular Disease and PM 2.5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Cardiovascular%20Disease%20and%20PM%202.5%20.png)
+
+
+Here we have an image of a sample regression prediction plot that is an output from our model. While some of our data does show some correlations, which can be seen in some of the visuals, our model may need to be enhanced in order to directly predict target variables such as cardiovascular disease, this can be explained in the machine learning model results. 
+
+[Predicted vs. Actual Variables](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Screen%20Shot%202021-08-22%20at%205.59.23%20PM.png)
 
 #### Cynthia Marin = X
 1. Presentation prep
@@ -672,7 +690,6 @@ https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/A
 2. Added feature importance analyses for random forest models
 3. Added supporting argument images for random forest model implementation
 4. Added preliminary prediction model overfitting analysis using adjusted R<sup>2</sup> value comparison
-5. [Machine Learning Presentation Script Outline](https://docs.google.com/document/d/1fHDXoOs1t6EYES_G0ZbfIHjWY9ve_P4amvKNMBSvPOs/edit?usp=sharing)
 
 ### Final Presentation: https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.p
 
