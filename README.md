@@ -103,7 +103,7 @@ This project's goal is to analyze air quality data from the California EPA by ce
 4. Began to clean, organize, and perform exploratory data analysis on our dataset so that it will be ready for analysis.
 5. Created mockups of a machine learning model and a database.
 
-### 1. [Project Topic]](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
+### 1. [Project Topic](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 For our final project our team has decided to take air qaulity data from different counties in California to test the following hypotheis: 
 
