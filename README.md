@@ -604,6 +604,8 @@ Once the presentation was complete, team members reviewed the contents to be sub
 
 ### Final Presentation: https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.p
 
+### Dashboard visuals: https://github.com/joshuanallen/Air_Quality_Prediction/tree/main/images/visuals
+
 ### Next Steps & future iterations:
 - Improve model training and include more target variables from source dataset. Include non-"air quality" data and include more health data.
     - Examples: water quality data, health factors, excercise
