@@ -7,9 +7,10 @@
 [Project Group Members](https://github.com/joshuanallen/Air_Quality_Prediction#project-group-members)
 
 
+
 [Segment 1: Sketch it Out](https://github.com/joshuanallen/Air_Quality_Prediction#segment-1-sketch-it-out)
 
-  [Project Topic](https://github.com/joshuanallen/Air_Quality_Prediction#1-project-topic)
+  [Project Topic](https://github.com/joshuanallen/Air_Quality_Prediction#1-project-topic)**
 
   [Repository ](https://github.com/joshuanallen/Air_Quality_Prediction#2-repository)
 
@@ -22,6 +23,8 @@
   [Database Storage and Machine Learning](https://github.com/joshuanallen/Air_Quality_Prediction#5-database-storage-and-machine-learning)
 
   [Dashboard](https://github.com/joshuanallen/Air_Quality_Prediction#dashboard)
+  
+  
 
 [Segment 2: Sketch it Out](https://github.com/joshuanallen/Air_Quality_Prediction#segment-2-sketch-it-out)
 
@@ -36,6 +39,8 @@
   [Initial Dashboard Outline](https://github.com/joshuanallen/Air_Quality_Prediction#initial-dashboard-outline)
 
   [Database](https://github.com/joshuanallen/Air_Quality_Prediction#database)
+  
+  
 
 [Segment 3: Plug it in](https://github.com/joshuanallen/Air_Quality_Prediction#segment-3-plug-it-in)
 
@@ -44,6 +49,8 @@
   [Multiple Linear Regression Best Fit Models]()
 
   [Random Forest Models](https://github.com/joshuanallen/Air_Quality_Prediction#random-forest-models)
+  
+  
 
 [Segment 4: Put It All Together](https://github.com/joshuanallen/Air_Quality_Prediction#segment-4-put-it-all-together)
 
