@@ -4,17 +4,17 @@
 
 [Project Overview](https://github.com/joshuanallen/Air_Quality_Prediction#project-overview)
 
-  - [Project Group Members](https://github.com/joshuanallen/Air_Quality_Prediction#project-group-members)
+   [Project Group Members](https://github.com/joshuanallen/Air_Quality_Prediction#project-group-members)
 
 [Segment 1: Sketch it Out](https://github.com/joshuanallen/Air_Quality_Prediction#segment-1-sketch-it-out)
 
-  - [Project Topic](https://github.com/joshuanallen/Air_Quality_Prediction#1-project-topic)
+   [Project Topic](https://github.com/joshuanallen/Air_Quality_Prediction#1-project-topic)
 
-  - [Repository ](https://github.com/joshuanallen/Air_Quality_Prediction#2-repository)
+   [Repository ](https://github.com/joshuanallen/Air_Quality_Prediction#2-repository)
 
-  - [Data Source](https://github.com/joshuanallen/Air_Quality_Prediction#3-data-source)
+   [Data Source](https://github.com/joshuanallen/Air_Quality_Prediction#3-data-source)
 
-  - [Data Cleaning and Analysis](link)
+   [Data Cleaning and Analysis](link)
 
 [Text](link)
 
