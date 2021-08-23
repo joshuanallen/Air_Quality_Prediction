@@ -687,9 +687,8 @@ Once the presentation was complete, team members reviewed the contents to be sub
 
 #### Josh Allen = Square
 1. Added confusion matrices and analysis for random forest classification models
-2. Added feature importance analyses for random forest models
-3. Added supporting argument images for random forest model implementation
-4. Added preliminary prediction model overfitting analysis using adjusted R<sup>2</sup> value comparison
+2. Added supporting argument images for random forest model implementation
+3. Added final conclusions and next steps
 
 ### Final Presentation: https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.p
 
