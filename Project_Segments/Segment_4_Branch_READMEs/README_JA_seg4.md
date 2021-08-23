@@ -12,7 +12,15 @@ Role: Square (Machine Learning Model)
 - "Low Birth Weight" and "Unemployment" target variables were the most difficult to create an accurate prediction moidel based on our feature dataset.
 
 #### Random Forest Models
-The Random Forest models both significantly improved prediction accuracy over the linear regression models. The random forest approach was chosen because of its ability to handle more complex datasets than the linear models. Random forest models are a great alternative to running a deep learning network because they inherently reduce overfitting by design, they can handle outlier data, and they're less resource intensive and more easily interpreted than a artificial neural network. The image below shows an a example of one of the estimators in the random forest model creating
+The Random Forest models both significantly improved prediction accuracy over the linear regression models. The random forest approach was chosen because of its ability to handle more complex datasets than the linear models. Random forest models are a great alternative to running a deep learning network because they inherently reduce overfitting by design, they can handle outlier data, and they're less resource intensive and more easily interpreted than a artificial neural network. 
+
+The image below shows an a example of one of the estimators in the random forest model creating a decision tree. As more trees are added, the model tends to reduce the possibility of overfitting, but noisy datasets can negate this.
+
+**Random Forest Model Decision Tree Example Visualization**
+![Random Forest Model Decision Tree Example Visualization](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/decision-tree-visual.png)
+
+**Random Forest Model Decision Tree Example Visualization (Zoom)**
+![Random Forest Model Decision Tree Example Visualization (Zoom)](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/decision-tree-visual-closeup.png)
 
 2. **Random Forest Regressor Model**:
 The results for the random forest regressor model outperfomed the linear regression model significantly. However, the regression approach did not generate quality prediction models for the "Low Birth Weight" and "Unemployment" target variables as their accuracies still remained lower than we deemed a reliable model.
@@ -50,7 +58,7 @@ Limitations of Random Forest Regressor Model:
 3. **Random Forest Classification Model**:
 As the evaluation metrics between classification models and regression models are not a direct comparison, we cannot directly evaluate the improvement of the model over the linear regression model and the random forest regressor model. However, because of the differing approach to the and the poor overall performance of the linear regression model, we can confidently say this model was an improvement over the multiple linear regression models. The random forest classification model was also able to produce an improved prediction model for the "Low Birth Weight" and "Unemployment" target variables.
 
-- Asthma: 
+- Asthma: The model performed well for prediciting asthma rates based on our feature variable set. The asthma confusion matrix shows us the predictions for the random forest classifier perform more accurately in the lower value ranges. From the classification report we can see the accuracy decrease as the range values get higher. Need to implement a sampling technique in order to balance the model training and testing.
     - Model Accuracy: 0.612
     **Asthma Prediction Model Confusion Matrix**
     ![Asthma Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_asthma_confusion_matrix.png)
@@ -58,7 +66,7 @@ As the evaluation metrics between classification models and regression models ar
     **Asthma Prediction Model Classification Report**
     ![Asthma Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_asthma_classifcation_report.png)
 
-- Low Birth Weight: 
+- Low Birth Weight: This was our best performing model overall based on the correct predictions shown in the confusion matrix output. Because there are less classification categories for the target variable, the classification model performed better. This may be due to the manual binning. Still this target variable data is heavily skewed towards lower value results. Need to implement a sampling technique in order to balance the model training and testing.
     - Accuracy:: 0.666
     **Low Birth Weight Prediction Model Confusion Matrix**
     ![Low Birth Weight Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_lbw_confusion_matrix.png)
@@ -66,7 +74,7 @@ As the evaluation metrics between classification models and regression models ar
     **Low Birth Weight Prediction Model Classification Report**
     ![Low Birth Weight Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_lbw_classification_report.png)
 
-- Cardiovascular Disease:
+- Cardiovascular Disease: This model performed well and was able to predict correct classficiations, however from the classification report we can see the accuracy decrease as the range values get higher. Need to implement a sampling technique in order to balance the model training and testing.
     - Accuracy:: 0.599
     **Cardiovascular Disease Prediction Model Confusion Matrix**
     ![Cardiovascular Disease Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_cvd_confusion_matrix.png)
@@ -74,7 +82,7 @@ As the evaluation metrics between classification models and regression models ar
     **Cardiovascular Disease Prediction Model Classification Report**
     ![Cardiovascular Disease Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_cvd_classification_report.png)
 
-- Poverty:
+- Poverty: This model performed moderately at predicting the classification output. Unlike our other target variables, there was not a lot of loss at higher value classifications, implying the data was more balanced. However, we can conclude that this model needs to be refined more and our current feature dataset for this variable needs to be reviewed.
     - Accuracy:: 0.493
     **Poverty Prediction Model Confusion Matrix**
     ![Poverty Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_poverty_confusion_matrix.png)
@@ -83,7 +91,7 @@ As the evaluation metrics between classification models and regression models ar
     ![Poverty Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_poverty_classification_report.png)
 
 
-- Unemployment
+- Unemployment: Unemployment was our lowest performing classification model. The target data was heavily weighted to two prediction categories which may have limited the model training. However, even the more populated classfications result in a well trained model for that class.
     - Accuracy:: 0.442
     **Unemployment Prediction Model Confusion Matrix**
     ![Unemployment Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_ue_confusion_matrix.png)
