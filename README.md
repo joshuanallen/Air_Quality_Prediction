@@ -15,7 +15,31 @@
 
 [Data Source](https://github.com/joshuanallen/Air_Quality_Prediction#3-data-source)
 
-[Data Cleaning and Analysis](link)
+[Data Cleaning and Analysis](https://github.com/joshuanallen/Air_Quality_Prediction#4-data-cleaning-and-analysis)
+
+[Database Storage and Machine Learning](https://github.com/joshuanallen/Air_Quality_Prediction#4-data-cleaning-and-analysis)
+
+[Database Storage and Machine Learning](https://github.com/joshuanallen/Air_Quality_Prediction#5-database-storage-and-machine-learning)
+
+[Dashboard](https://github.com/joshuanallen/Air_Quality_Prediction#dashboard)
+
+[Segment 2: Sketch it Out](https://github.com/joshuanallen/Air_Quality_Prediction#segment-2-sketch-it-out)
+
+[Machine Learning Process](https://github.com/joshuanallen/Air_Quality_Prediction#machine-learning-process)
+
+[Data variable definitions](https://github.com/joshuanallen/Air_Quality_Prediction#data-variable-definitions)
+
+[Splitting training and testing sets](https://github.com/joshuanallen/Air_Quality_Prediction#splitting-training-and-testing-sets)
+
+[Model Choice process](https://github.com/joshuanallen/Air_Quality_Prediction#model-choice-process)
+
+[Initial Dashboard Outline](https://github.com/joshuanallen/Air_Quality_Prediction#initial-dashboard-outline)
+
+[Database](https://github.com/joshuanallen/Air_Quality_Prediction#database)
+
+[Segment 3: Plug it in](https://github.com/joshuanallen/Air_Quality_Prediction#segment-3-plug-it-in)
+
+[Prediction Model Results](https://github.com/joshuanallen/Air_Quality_Prediction#prediction-model-results)
 
 [Text](link)
 
@@ -33,15 +57,6 @@
 
 [Text](link)
 
-[Text](link)
-
-[Text](link)
-
-[Text](link)
-
-[Text](link)
-
-[Text](link)
 
 ## [Project Overview:](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 This project's goal is to analyze air quality data from the California EPA by census tract in California to check for correlation with health and economic outcomes.
