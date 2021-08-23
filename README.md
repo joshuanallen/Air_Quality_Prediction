@@ -1,7 +1,7 @@
 # Air Quality Predicting prevalence of Socioeconomic variable rates related to health and wealth of area in California
 
 ## Project Overview:
-THis project's goal is to analyze air quality data from the California EPA by census tract in California to check for correlation with health and economic outcomes.
+This project's goal is to analyze air quality data from the California EPA by census tract in California to check for correlation with health and economic outcomes.
 
 ### Project Group Members: 
 - Ashley Burneka
@@ -64,9 +64,8 @@ THis project's goal is to analyze air quality data from the California EPA by ce
 
 For our final project our team has decided to take air qaulity data from different counties in California to test the following hypotheis: 
 
-* **Hypothesis:** The pollution exposure of different regions in California presents a negative socioeconomic effect on the population. 
-* **Null Hypothesis:** There is no negative correlation between pollution exposure and negative socioeconomic variables.  
-* **Alternative Hypothesis:** There is a negative correlation between pollution exposure and negative socioeconomic variables.  
+* **Hypothesis:** Air quality data points for a given geographic location CAN ACCURATELY PREDICT health and economic outcomes for that area. 
+* **Null Hypothesis:** Air quality data points for a given geographic location CANNOT ACCURATELY PREDICT health and economic outcomes for that area  
 
 **Pollution Exposure Variables:**
 * Ozone Concentrations
@@ -591,7 +590,6 @@ Once the presentation was complete, team members reviewed the contents to be sub
 2. Project purpose (presentation)
 3. [Introduction Presentation Script Outline](https://github.com/joshuanallen/Air_Quality_Prediction/blob/14cfd4449281b4fbd28f270d682e6c9e1d46256f/Segment_4_Branch_READMEs/README_CM4.md)
 
-
 #### David Aaronson = Triangle
 
 
@@ -601,10 +599,14 @@ Once the presentation was complete, team members reviewed the contents to be sub
 3. Added supporting argument images for random forest model implementation
 4. Added preliminary prediction model overfitting analysis using adjusted R<sup>2</sup> value comparison
 
-
 ### Final Presentation: https://docs.google.com/presentation/d/1noJYenDOqaIEtaZpQPxYF8SpY--rE-D0jlsj-HzvJ8U/edit#slide=id.p
 
 ### Dashboard visuals: https://github.com/joshuanallen/Air_Quality_Prediction/tree/main/images/visuals
+
+### Final Conclusions:
+Our current model results **FAILED TO REJECT OUR NULL HYPOTHESIS** of air quality data points NOT ACCURATELY PREDICTING health and economic outcomes for a given area because more evaluation and testing is needed to determine if the models are overfitting to this specific dataset.
+
+The random forest models outperformed our linear regression models significantly implying the correlation for feature and target variables is comlex. This aligns with the thought that sociological data is difficult to create accurate prediction models based on narrow parameters because their datasets can be skewed and noisy and there's no established metric for evaluating "good" vs. "bad" models.
 
 ### Next Steps & future iterations:
 - Improve model training and include more target variables from source dataset. Include non-"air quality" data and include more health data.
@@ -616,3 +618,5 @@ Once the presentation was complete, team members reviewed the contents to be sub
 - Evaluate the models for overfitting to our current dataset: 
     - Test model results on updated dataset from same source data: [CalEnviroScreen 4.0](https://calenviroscreen-oehha.hub.arcgis.com/#Data)
     - Run parameter testing analysis: [Overfitting in machine learning modules](https://machinelearningmastery.com/overfitting-machine-learning-models/)
+
+After running more samples and eliminating the possibility of the models being overfit to our current dataset, we can then reevaluate our hypothesis.
