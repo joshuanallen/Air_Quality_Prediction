@@ -611,6 +611,14 @@ The random forest models outperformed our linear regression models significantly
 ### Next Steps & future iterations:
 - Improve model training and include more target variables from source dataset. Include non-"air quality" data and include more health data.
     - Examples: water quality data, health factors, excercise
+- Include more/less or replace variables
+    - Use hierarchical rankings to eliminate irrelevant variables
+    - Compare adjusted-R<sup>2</sup> to R<sup>2</sup> values to gauge amount of variables needed to avoid “overfitting” and variable bias
+    - Use p-values to determine variable significance
+- Tune forest model's parameters and binning
+    - Limit tree depth to avoid overfitting
+    - Change from manual binning to using tool like KBinsDiscretizer
+    - Classifier model for noisier target variables (i.e. low birth weight and unemployment)
 - Iterate through regression models reducing feature variables based on hierarchical output feature analysis
 - Include additional datasets from directly from reporting sources
 - Add additional time frames for data inclusion to expand dataset
