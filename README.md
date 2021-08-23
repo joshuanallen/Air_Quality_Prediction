@@ -671,10 +671,10 @@ All group members prepared, wrote an outline, and then practised for the present
 Once the presentation was complete, team members reviewed the contents to be submitted and confirmed that the project was as complete as possible.
 
 #### Ashley Burneka = Circle 
-1. Completed the Tableau Storyboard for the presentation 
+1. [Completed the Tableau Storyboard for the presentation](https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/AirQualityinCalifornia ) 
 2. Continued to add visuals for the presentation 
-3. Visuals preswentation script 
-https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/AirQualityinCalifornia 
+3. [Visuals presentation script](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/Project_Segments/Segment_3_Branch_READMEs/readme_AB3.md)
+
 
 
 #### Cynthia Marin = X
