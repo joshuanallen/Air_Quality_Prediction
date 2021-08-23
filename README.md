@@ -43,7 +43,7 @@
   
 
 - [Segment 3: Plug it in](https://github.com/joshuanallen/Air_Quality_Prediction#segment-3-plug-it-in)
-
+  - [Final Dashboard]()
   - [Prediction Model Results](https://github.com/joshuanallen/Air_Quality_Prediction#prediction-model-results)
 
   - [Multiple Linear Regression Best Fit Models]()
@@ -414,32 +414,32 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
 1. Final visuals for presentation
 2. Update publicly available interactive visual 
 
-[Final Dashboard:](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
+### [Final Dashboard:](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 [Tableau Public Storyboard](https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/AirQualityinCalifornia)
 
 Using Tableua, a storyboard was created to showcase some visuals generated using our clean data and to try and tell a story about said data. In the below images you can see that we chose some of our target variable data and some of the feature variables or environmental exposure indicators such as low birth weight and traffic, low birth weight and PM 2.5 and low birth weight and ozone. Each visual is interactive, allowing the user to filter the data or select things such as birth weight or the amount of traffic, as seen in the image below: 
 
-[Low Birth Weight and Traffic](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/LBW%20Traffic%20.png)
+![Low Birth Weight and Traffic](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/LBW%20Traffic%20.png)
 
-(https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/LBW%20and%20traffic%201%20.png)
+![](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/LBW%20and%20traffic%201%20.png)
 
-[Low Birth Weight and PM 2.5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/LBW%20and%20PM%202.5.png)
+![Low Birth Weight and PM 2.5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/LBW%20and%20PM%202.5.png)
 
-[Low Birth Weight and Ozone](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Low%20Birth%20Weight%20and%20Ozone%20.png)
+![Low Birth Weight and Ozone](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Low%20Birth%20Weight%20and%20Ozone%20.png)
  
 Other variables chosen include asthma and PM 2.5 and Asthma and traffic. You can see that this does show that there is some correlations between asthma and PM 2.5 in certain regions of California, however asthma related emergency department visits do not appear to be highly correlated with traffic in the state.
 
-[Asthma and Pm 2.5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Asthma%20and%20PM%202.5.png)
-[Asthma and Traffic]()
+![Asthma and Pm 2.5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Asthma%20and%20PM%202.5.png)
 
 
-[Cardiovascular Disease and PM 2.5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Cardiovascular%20Disease%20and%20PM%202.5%20.png)
+
+![Cardiovascular Disease and PM 2.5](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Cardiovascular%20Disease%20and%20PM%202.5%20.png)
 
 
 Here we have an image of a sample regression prediction plot that is an output from our model. While some of our data does show some correlations, which can be seen in some of the visuals, our model may need to be enhanced in order to directly predict target variables such as cardiovascular disease, this can be explained in the machine learning model results. 
 
-[Predicted vs. Actual Variables](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Screen%20Shot%202021-08-22%20at%205.59.23%20PM.png)
+![Predicted vs. Actual Variables](https://github.com/joshuanallen/Air_Quality_Prediction/blob/main/images/Screen%20Shot%202021-08-22%20at%205.59.23%20PM.png)
 
 #### Cynthia Marin = X
 1. Presentation prep
