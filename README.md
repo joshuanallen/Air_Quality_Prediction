@@ -442,9 +442,11 @@ The Random Forest models both significantly improved prediction accuracy over th
 The image below shows an a example of one of the estimators in the random forest model creating a decision tree. As more trees are added, the model tends to reduce the possibility of overfitting, but noisy datasets can negate this.
 
 **Random Forest Model Decision Tree Example Visualization**
+
 ![Random Forest Model Decision Tree Example Visualization](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/decision-tree-visual.png)
 
 **Random Forest Model Decision Tree Example Visualization (Zoom)**
+
 ![Random Forest Model Decision Tree Example Visualization (Zoom)](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/decision-tree-visual-closeup.png)
 
 2. [**Random Forest Regressor Model**](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/Code/AQI_Prediction_Random_Forest_Regressor_model_v4.ipynb):
@@ -453,26 +455,31 @@ The results for the random forest regressor model outperfomed the linear regress
 - [Asthma](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/asthma_rf_regressor_model.png): The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the asthma rate based on the six feature variables.
     - R<sup>2</sup> value: 0.602
     **Asthma Model Prediction vs Actual Plot**
+    
     ![Asthma Model Prediction vs Actual Plot](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Regressor_models/rfr_asthma_prediction_plot.png)
 
 - [Low Birth Weight](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/low_birth_rate_rf_regressor_model.png): The random forest regressor model resulted in a **small improvement over the multiple linear regression model** in its ability to predict the low birth weight rate based on the six feature variables. However, the improved model has a significantly lower R<sup>2</sup> value with the low birth weight target variable than the other four target variables using the same feature data. This may imply an overall lack of correlation between the feature and low birth weight target variables.
     - R<sup>2</sup> value: 0.115
     **Low Birth Weight Model Prediction vs Actual Plot**
+    
     ![Low Birth Weight Model Prediction vs Actual Plot](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Regressor_models/rfr_lbw_prediction_plot.png)
 
 - [Cardiovascular Disease](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/cardiovascular_disease_rf_regressor_model.png): The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the cardivascular disease rate based on the six feature variables.
     - R<sup>2</sup> value: 0.561
     **Cardiovascular Disease Model Prediction vs Actual Plot**
+    
     ![Cardiovascular Disease Model Prediction vs Actual Plot](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Regressor_models/rfr_cvd_prediction_plot.png)
 
 - [Poverty](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/poverty_rf_regressor_model.png): The random forest regressor model resulted in a **significantly improved regression model** over the multiple linear regression model in its ability to predict the poverty rate based on the six feature variables.
     - R<sup>2</sup> value: 0.500
     **Poverty Model Prediction vs Actual Plot**
+    
     ![Poverty Model Prediction vs Actual Plot](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Regressor_models/rfr_poverty_prediction_plot.png)
 
 - [Unemployment](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Random_Forest_Regressor_models/unemployment_rf_regressor_model.png): The random forest regressor model resulted in a **small improvement over the multiple linear regression model** in its ability to predict the unemployment rate based on the six feature variables. However, the low R<sup>2</sup> value implies this model still is not a reliable regression model for this target variable. This may imply an overall lack of correlation between the feature and unemployment rate target variables.
     - R<sup>2</sup> value: 0.300
     **Unemployment Model Prediction vs Actual Plot**
+    
     ![Unemployment Model Prediction vs Actual Plot](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Regressor_models/rfr_ue_prediction_plot.png)
 
 
@@ -486,41 +493,51 @@ As the evaluation metrics between classification models and regression models ar
 - Asthma: 
     - Model Accuracy: 0.612
     **Asthma Prediction Model Confusion Matrix**
+    
     ![Asthma Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_asthma_confusion_matrix.png)
 
     **Asthma Prediction Model Classification Report**
+    
     ![Asthma Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_asthma_classifcation_report.png)
 
 - Low Birth Weight: 
     - Accuracy:: 0.666
     **Low Birth Weight Prediction Model Confusion Matrix**
+    
     ![Low Birth Weight Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_lbw_confusion_matrix.png)
     
     **Low Birth Weight Prediction Model Classification Report**
+    
     ![Low Birth Weight Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_lbw_classification_report.png)
 
 - Cardiovascular Disease:
     - Accuracy:: 0.599
     **Cardiovascular Disease Prediction Model Confusion Matrix**
+    
     ![Cardiovascular Disease Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_cvd_confusion_matrix.png)
     
     **Cardiovascular Disease Prediction Model Classification Report**
+    
     ![Cardiovascular Disease Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_cvd_classification_report.png)
 
 - Poverty:
     - Accuracy:: 0.493
     **Poverty Prediction Model Confusion Matrix**
+    
     ![Poverty Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_poverty_confusion_matrix.png)
     
     **Poverty Prediction Model Classification Report**
+    
     ![Poverty Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_poverty_classification_report.png)
 
 
 - Unemployment
     - Accuracy:: 0.442
     **Unemployment Prediction Model Confusion Matrix**
+    
     ![Unemployment Prediction Model Confusion Matrix](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_ue_confusion_matrix.png)
     **Unemployment Prediction Model Classification Report**
+    
     ![Unemployment Prediction Model Classification Report](https://github.com/joshuanallen/Air_Quality_Prediction/blob/cc3d1b52f330b69adc2a88755d87540a8b48d8f6/images/Random_Forest_Classification_models/rfc_ue_classification_report.png)
 
 
