@@ -42,10 +42,10 @@
 
 [Text](link)
 
-## Project Overview:
+## [Project Overview:](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 This project's goal is to analyze air quality data from the California EPA by census tract in California to check for correlation with health and economic outcomes.
 
-### Project Group Members: 
+### [Project Group Members:](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents) 
 - Ashley Burneka
 - Cynthia Marin
 - David Aaronson
@@ -53,7 +53,7 @@ This project's goal is to analyze air quality data from the California EPA by ce
 
 ---
 
-## Segment 1: Sketch it Out
+## [Segment 1: Sketch it Out](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 ### Segment 1 Roles: 
 - Ashley Burneka = X (Technologies, Tools, and Presentation)
@@ -102,7 +102,7 @@ This project's goal is to analyze air quality data from the California EPA by ce
 4. Began to clean, organize, and perform exploratory data analysis on our dataset so that it will be ready for analysis.
 5. Created mockups of a machine learning model and a database.
 
-### 1. Project Topic
+### 1. [Project Topic]](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 For our final project our team has decided to take air qaulity data from different counties in California to test the following hypotheis: 
 
@@ -136,7 +136,7 @@ For our final project our team has decided to take air qaulity data from differe
 * Latitude
 
 
-### 2. Repository 
+### [2. Repository ]](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 We have created our teams GitHub repository, with a branch for each team member to work from. We also had one team member,(square role), establish communication protocols and generate a project management deashboard. 
 
@@ -184,11 +184,11 @@ Weekly sync zoom meeting:
   - Completed tasks will be reviewed and discussed in weekly sync. Pull request performed by branch owner and then merged after discussion and approval
 
 
-### 3. Data Source 
+### [3. Data Source ](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 Data Source: https://data.ca.gov/dataset/calenviroscreen-3-0-results/resource/89b3f4e9-0bf8-4690-8c6f-715a717f3fae
 
-### 4. Data Cleaning and Analysis
+### [4. Data Cleaning and Analysis](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 When it comes to data manipulation, we have done the following:
 * On Excel, we clean up the raw data and keep the variables we will be using for our AQP analysis. Find [Clean Data](https://github.com/joshuanallen/Air_Quality_Prediction/blob/b207ed61928782d2105617b26d6c79aadce9aad8/Resources/CLEAN_DATA_calenviroscreen_2018.csv) and [Raw Data](https://github.com/joshuanallen/Air_Quality_Prediction/blob/b207ed61928782d2105617b26d6c79aadce9aad8/Resources/RAW_DATA_calenviroscreen_3.0_results_june_2018.csv) in Resources folder.
@@ -210,7 +210,7 @@ What's next?
 
 ![ERD_AQP.png](https://github.com/joshuanallen/Air_Quality_Prediction/blob/b207ed61928782d2105617b26d6c79aadce9aad8/Database/ERD_AQP.png)
 
-### 5. Database Storage and Machine Learning
+### [5. Database Storage and Machine Learning](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 We intend to use the relational database system, PostgreSQL and pgAdmin to display the data. 
 
@@ -242,7 +242,7 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 
 ---
 
-## Segment 2: Sketch it Out
+## [Segment 2: Sketch it Out](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 ### Segment 2 Roles: 
 - Ashley Burneka = Circle
@@ -282,7 +282,7 @@ Tableau will be used to create an interactive dashboard and JavaScript will be u
 
 ---
 
-### Machine Learning Process
+### [Machine Learning Process](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 #### Preliminary Data preprocessing
 Reduction of columns from imported dataset to isolate variables for machine learning models includeing feature variables and target variables.
@@ -313,7 +313,7 @@ Source: [CalEnviroScreen 3.0 Report](https://data.ca.gov/dataset/0bd5f40b-c59b-4
 5. **Tox. Release**: *The Toxics Release Inventory (TRI) provides public information on emissions and releases into the environment from a variety of facilities across the state. TRI data do not, however, provide information on the extent of public exposure to these chemicals... US EPA has stated that 'disposal or other releases of chemicals into the environment occur through a range of practices that could ultimately affect human exposure to the toxic chemicals.'*
 6. **Traffic**: *Traffic density is used to represent the number of mobile sources in a specified area, resulting in human exposures to chemicals that are released into the air by vehicle exhaust, as well as other effects related to large concentrations of motor vehicles.*
 
-#### Data variable definitions
+#### [Data variable definitions](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 Source: [CalEnviroScreen 3.0 Report](https://data.ca.gov/dataset/0bd5f40b-c59b-4183-be22-d057eae8383c/resource/850cbbb8-f616-48c0-9240-971003c99413/download/calenviroscreen-3.0-report.pdf)
 
 1. **Ozone**: Mean of summer months (May-October) of the daily maximum 8-hour ozone concentration(ppm), averaged over three years (2012 to 2014).
@@ -346,13 +346,13 @@ At the beginning of this project we had intended on using an artificial neural n
 - Benefits: Allows for "higher touch" tuning by changing classification ranges to increase accuracy. Target variables do not need to be exact and therefore predicting a target range is just as useful. This proved useful for a few but not all of our prediction models.
 - Limitations: Artificial bucketing can lead to false model improvements. Also, since target data is continuous, we lose prediction accuracy from the regressor model based on the prediction only being a range of values.
 
-
+### [Dashboard](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 ### [Initial Dashboard Outline](https://github.com/joshuanallen/Air_Quality_Prediction/blob/bfedb9267ae4342d36a82bb08716996462551450/Dashboard_Segment_2.pdf)
 
 https://docs.google.com/presentation/d/1t5qXaHEcoh9_AV-rjfB6Fh8hgdCf3hjEQMxdDfBvutI/edit?usp=sharing
 
 
-### Database
+### [Database](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 #### Preliminary Data preprocessing
 Reduction of columns from imported dataset to isolate variables for machine learning models includeing feature variables and target variables.
@@ -375,7 +375,7 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
 
 ---
 
-## Segment 3: Plug it in
+## [Segment 3: Plug it in](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 ### Segment 3 Roles: 
 - Ashley Burneka = Circle
@@ -415,7 +415,7 @@ Using Tableua, a storyboard was created to showcase some visuals generated using
 3. Added discussion about dataset and model limitations
 
 
-#### Prediction Model Results
+#### [Prediction Model Results](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 **Prediction Model Results overview:**
 - Best overall target variable and prediction model:
     - Low Birth Weight prediction Random Forest Classifier model had a prediction accuracy of 67%
