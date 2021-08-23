@@ -41,21 +41,17 @@
 
 [Prediction Model Results](https://github.com/joshuanallen/Air_Quality_Prediction#prediction-model-results)
 
-[Text](link)
+[Multiple Linear Regression Best Fit Models]()
 
-[Text](link)
+[Random Forest Models](https://github.com/joshuanallen/Air_Quality_Prediction#random-forest-models)
 
-[Text](link)
+[Segment 4: Put It All Together](https://github.com/joshuanallen/Air_Quality_Prediction#segment-4-put-it-all-together)
 
-[Text](link)
+[Final Conclusions](https://github.com/joshuanallen/Air_Quality_Prediction#final-conclusions)
 
-[Text](link)
+[Next Steps & future iterations](https://github.com/joshuanallen/Air_Quality_Prediction#next-steps--future-iterations)
 
-[Text](link)
 
-[Text](link)
-
-[Text](link)
 
 
 ## [Project Overview:](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
@@ -411,11 +407,13 @@ Variables have been selected, and the tables have been cleaned, exported as CSVs
 1. Final visuals for presentation
 2. Update publicly available interactive visual 
 
-Dashboard: https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/AirQualityinCalifornia
+[Final Dashboard:](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
+
+[Tableau Public Storyboard](https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/AirQualityinCalifornia)
 
 Using Tableua, a storyboard was created to showcase some visuals generated using our clean data and to try and tell a story about said data. 
 
-<img width="786" alt="LBW Traffic " src="https://user-images.githubusercontent.com/79999761/130381068-5c363250-81d9-4c1b-a389-32695ec84864.png">
+[Low Birth Weight and Traffic]()
 
 
 #### Cynthia Marin = X
@@ -439,7 +437,7 @@ Using Tableua, a storyboard was created to showcase some visuals generated using
 - Dataset was too complex to build reliable multiple linear regression model.
 - "Low Birth Weight" and "Unemployment" target variables were the most difficult to create an accurate prediction moidel based on our feature dataset.
 
-1. [**Multiple Linear Regression Best Fit Models**](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/Code/AQI_Prediction_Multivariable_Linear_Regression_v2.ipynb):
+##### 1. [**Multiple Linear Regression Best Fit Models**](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/Code/AQI_Prediction_Multivariable_Linear_Regression_v2.ipynb):
 - [Asthma](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/images/Linear_regression_models/asthma_linear_regression_model.png): Modeling predictions for asthma rating based on the six feature variables resulted in a significantly low R<sup>2</sup> value implying this linear regression model is not the best model for this feature and target variable dataset. The highest coefficient weights were the "Diesel PM" and "Ozone" variables.
     - R<sup>2</sup> value: 0.054
     - Feature Variable Coefficients:
@@ -499,7 +497,7 @@ Limitations of multiple linear regression model:
 - Possibly too many feature variables resulting inconclusive results from model
 - Limited interpretation when using a large amount of input variables
 
-#### Random Forest Models
+#### [Random Forest Models](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 The Random Forest models both significantly improved prediction accuracy over the linear regression models. The random forest approach was chosen because of its ability to handle more complex datasets than the linear models. Random forest models are a great alternative to running a deep learning network because they inherently reduce overfitting by design, they can handle outlier data, and they're less resource intensive and more easily interpreted than a artificial neural network. 
 
 The image below shows an a example of one of the estimators in the random forest model creating a decision tree. As more trees are added, the model tends to reduce the possibility of overfitting, but noisy datasets can negate this.
@@ -555,7 +553,7 @@ Limitations of Random Forest Regressor Model:
 - Subject to overfitting on noisy datasets, so models need more testing on if it's overfit to data.
 - Poor fit for "low birth weight" and "unemployment" target variables possibly due to increased data variability at higher rates beacuse of lack of training data points
 
-3. [**Random Forest Classification Model](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/Code/AQI_Prediction_Random_Forest_Classification_Model_v4.ipynb)**:
+3. [**Random Forest Classification Model**](https://github.com/joshuanallen/Air_Quality_Prediction/blob/718c0d51753d2ec35ac292be187dff870b7363c0/Code/AQI_Prediction_Random_Forest_Classification_Model_v4.ipynb):
 As the evaluation metrics between classification models and regression models are not a direct comparison, we cannot directly evaluate the improvement of the model over the linear regression model and the random forest regressor model. However, because of the differing approach to the and the poor overall performance of the linear regression model, we can confidently say this model was an improvement over the multiple linear regression models. The random forest classification model was also able to produce an improved prediction model for the "Low Birth Weight" and "Unemployment" target variables.
 
 - Asthma: The model performed well for prediciting asthma rates based on our feature variable set. The asthma confusion matrix shows us the predictions for the random forest classifier perform more accurately in the lower value ranges. From the classification report we can see the accuracy decrease as the range values get higher. Need to implement a sampling technique in order to balance the model training and testing.
@@ -628,7 +626,7 @@ Dataset limitations:
 
 ---
 
-## Segment 4: Put It All Together
+## [Segment 4: Put It All Together](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 
 ### Segment 4 Roles: 
 - Ashley Burneka = Circle
@@ -672,12 +670,12 @@ https://public.tableau.com/app/profile/ashley.burneka/viz/AirQualityPrediction/A
 
 ### Dashboard visuals: https://github.com/joshuanallen/Air_Quality_Prediction/tree/main/images/visuals
 
-### Final Conclusions:
+### [Final Conclusions:](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 Our current model results **FAILED TO REJECT OUR NULL HYPOTHESIS** of air quality data points NOT ACCURATELY PREDICTING health and economic outcomes for a given area because more evaluation and testing is needed to determine if the models are overfitting to this specific dataset.
 
 The random forest models outperformed our linear regression models significantly implying the correlation for feature and target variables is comlex. This aligns with the thought that sociological data is difficult to create accurate prediction models based on narrow parameters because their datasets can be skewed and noisy and there's no established metric for evaluating "good" vs. "bad" models.
 
-### Next Steps & future iterations:
+### [Next Steps & future iterations:](https://github.com/joshuanallen/Air_Quality_Prediction#table-of-contents)
 - Improve model training and include more target variables from source dataset. Include non-"air quality" data and include more health data.
     - Examples: water quality data, health factors, excercise
 - Include more/less or replace variables
